@@ -1,0 +1,373 @@
+{
+  "0": {
+    "background": "Black",
+    "animation": "false",
+    "image": "Transparent",
+    "name": "...",
+    "text": "…",
+    "position": "0"
+  },
+  "1": {
+    "image": "Transparent",
+    "name": "...",
+    "text": "¿Qué es?",
+    "position": "0"
+  },
+  "2": {
+    "image": "Transparent",
+    "name": "...",
+    "text": "¿Quién?",
+    "position": "0"
+  },
+    "3": {
+    "image": "Transparent",
+    "name": "???_",
+    "text": "Dante.",
+    "position": "1"
+  },  
+    "4": {
+    "image": "Transparent",
+    "name": "...",
+    "text": "¿Dante?",
+    "position": "0"
+  },
+    "5": {
+    "image": "Transparent",
+    "name": "Dante_",
+    "text": "Cierto, mi nombre.",
+    "position": "0"
+  },
+    "6": {
+    "image": "Transparent",
+    "name": "???_",
+    "text": "Dante.",
+    "position": "1"
+  },
+    "7": {
+    "image": "Transparent",
+    "name": "Dante_ ",
+    "text": "¿Beatriz?",
+    "position": "0"
+  },
+    "8": {
+    "image": "Transparent",
+    "name": "???_",
+    "text": "¡Dante! ¡Despierta!",
+    "position": "1"
+  },
+    "9": {
+    "image": "Transparent",
+    "name": "Dante_",
+    "text": "¡Beatriz! ¡¿Dónde estás?!",
+    "position": "1"
+  },
+    "10": {
+    "image": "Transparent",
+    "name": "Dante_",
+    "text": "¡¡ No me dejes, por favor!!",
+    "position": "0"
+  },
+    "11": {
+    "image": "Transparent",
+    "name": "???_",
+    "text": "¡¡¡Abre los ojos!!!",
+    "position": "1"
+  },
+    "12": {
+    "image": "Dante_Sorpresa",
+    "name": "Dante_",
+    "text": "¡¡¡ Beatriz!!!",
+    "position": "0"
+  },
+    "13": {
+    "background": "Waiting_Room",
+    "animation": "true",
+    "image": "Virgilio",
+    "name": "???_",
+    "text": "Oye, ya abre los ojos.",
+    "position": "1"
+  },
+    "14": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Virgilio?",
+    "position": "0"
+  },
+    "15": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Claro, ¿A quién esperabas, a Shakespeare?",
+    "position": "1"
+  },
+    "16": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Qué sucedió?",
+    "position": "0"
+  },
+    "17": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "¿Qué, acaso no recuerdas nada?",
+    "position": "1"
+  },
+    "18": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "Todo se siente como… difuso.",
+    "position": "0"
+  },
+    "19": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Bueno, es de esperarse. Te caíste en el río Estigia cuando huías de unos demonios.",
+    "position": "1"
+  },
+    "20": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Por suerte te sacaron antes de que todo tu ser se borrara.",
+    "position": "1"
+  },
+    "21": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Me sacaron? ¿Por qué?",
+    "position": "0"
+  },
+    "22": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "Creí que tenía una sola oportunidad de rescatarla.",
+    "position": "0"
+  },
+    "23": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Y así se suponía que fuese, pero alguien convenció al más alto de darte otra oportunidad, y mandaron a los demonios a rescatarte.",
+    "position": "1"
+  },
+    "24": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Otra oportunidad? ¿Quién fue?",
+    "position": "0"
+  },
+    "25": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "No lo sé. Pero al parecer le caíste bien a alguien muy importante, no eres la primera persona que intenta llevarse a alguien de entre los muertos, pero sí la primera que recibe clemencia.",
+    "position": "1"
+  },
+    "26": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_ ",
+    "text": "¡Vaya que eres afortunado!",
+    "position": "1"
+  },
+    "27": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Y ahora qué?",
+    "position": "0"
+  },
+    "28": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Ahora, sígueme.",
+    "position": "1"
+  },
+    "29": {
+    "background": "Purgatory",
+    "animation": "true",
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "¡Hey! San Pedro.",
+    "position": "1"
+  },
+    "30": {
+    "image": "Pedro",
+    "name": "San Pedro_",
+    "text": "Oh, heraldo, estás aquí.",
+    "position": "1"
+  },
+    "31": {
+    "image": "Pedro",
+    "name": "San Pedro_",
+    "text": "¿Qué? ¿Se supone que este es mi reemplazo?",
+    "position": "1"
+  },
+    "32": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Reemplazo?",
+    "position": "0"
+  },
+    "33": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Resulta que la condición de tu “perdón” es que reemplaces a San Pedro en su trabajo mientras él se toma unas vacaciones.",
+    "position": "2"
+  },
+    "34": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Parece estúpido, inmaduro e increíblemente inexperto, no entiendo por qué elegirían a este mocoso para reemplazarme.",
+    "position": "1"
+  },
+    "35": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Por qué debo ser yo el que reemplace a este decrépito?",
+    "position": "0"
+  },
+    "36": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "¿A quién llamas decrépito? Quisiera verte luego de haber trabajado casi 2000 años.",
+    "position": "1"
+  },
+    "37": {
+    "image": "Dante_Sorpresa",
+    "name": "Dante_",
+    "text": "¡¿2000 años?! Virgilio ¿Cuánto tiempo debo pasar aquí?",
+    "position": "0"
+  },
+    "38": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Eso depende, ¿Cuánto estás dispuesto a soportar?",
+    "position": "2"
+  },
+    "39": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Por ella, soportaría hasta el momento en el que la tierra se quede sin almas.",
+    "position": "0"
+  },
+    "40": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "¡Ja! Amor, que sentimiento tan mundano. Déjame darte un consejo, el corazón se vuelve tu peor enemigo en este oficio, no dejes que te supere o terminarás haciendo un desastre.",
+    "position": "1"
+  },
+    "41": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Cuál se supone que es mi trabajo?",
+    "position": "0"
+  },
+    "42": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Tu deber es juzgar a las almas que llegan desde la tierra y decidir cuál será su destino final.",
+    "position": "2"
+  },
+    "43": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "Y descuida, tampoco se te hará pasar la eternidad aquí, solo será un período de prueba de 3 días, para ver si los métodos que se usan para juzgar son los correctos.",
+    "position": "2"
+  },
+    "44": {
+    "image": "Pedro",
+    "name": "San pedro_ ",
+    "text": "Eso sí, más te vale no arruinarlo, ni dejes que te engañen, el que estuvo antes de mí cometió un gran error y lo mandaron al círculo de los traidores por toda la eternidad.",
+    "position": "1"
+  },
+    "45": {
+    "image": "Dante",
+    "name": "Dante_ ",
+    "text": "¿Alguien estuvo antes de ti? ¿Quién fue?",
+    "position": "0"
+  },
+    "46": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Un tipo con cara de perro, no sé cómo se llamaba y no me importa, solo sé que usaba una balanza y por eso lo engañaron.",
+    "position": "1"
+  },
+    "47": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Escucha, tu trabajo es juzgar a las almas según los 10 mandamientos, si alguna de ellas no los cumple no es digna de entrar al cielo y deberá pasar al purgatorio a arrepentirse de lo que hizo, ganándose así la oportunidad de entrar al cielo",
+    "position": "1"
+  },
+    "48": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Si cometió un pecado capital, o si su ofensa hacia Dios o hacia los demás es muy grande, deberá pasar el resto de su sucia eternidad en el infierno.",
+    "position": "1"
+  },
+    "49": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Deberás cumplir con tu deber mientras disfruto mis vacaciones.",
+    "position": "1"
+  },
+    "50": {
+    "image": "Virgilio",
+    "name": "Virgilio_ ",
+    "text": "¿Crees poder con esta importante labor?",
+    "position": "2"
+  },
+    "51":  {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Ya me conoces Virgilio.",
+    "position": "0"
+  },
+    "52": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Sostendré las puertas del purgatorio por centurias, si eso me permite estar con mi amada.",
+    "position": "0"
+  },
+    "53": {
+    "image": "Pedro",
+    "name": "San Pedro_",
+    "text": "Jeje sí, síguete diciendo eso, a ver cuánto duras.",
+    "position": "1"
+  },
+    "54": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Bien, yo me largo de aquí, esas caipiriñas no se beberán solas.",
+    "position": "1"
+  },
+    "55": {
+    "image": "Pedro",
+    "name": "San Pedro_ ",
+    "text": "Adiós, heraldo, adiós mocoso.",
+    "position": "1"
+  },
+    "56": {
+    "remove": [
+      {"position": "1" },
+      {"position": "2"}
+      ]
+  },
+    "57": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Ha llegado tu momento.",
+    "position": "1"
+  },
+    "58": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Bueno, es momento de demostrarle a ese anciano cómo se hace.",
+    "position": "0"
+  },
+    "59": {
+    "remove": [
+      {"position": "1" }
+      ]
+  },
+    "60": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Quién es el primero?",
+    "position": "0"
+  }
+}

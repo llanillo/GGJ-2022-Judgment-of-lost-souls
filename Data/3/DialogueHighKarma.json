@@ -1,0 +1,466 @@
+
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "A llegado el momento.",
+    "position": "1"
+  },
+  "1": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Qué tal lo hice?",
+    "position": "0"
+  },
+  "2": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Por lo que escuche, a los de arriba no les agrada que los nuevos no cumplan con las ideas de la iglesia.",
+    "position": "1"
+  },
+  "3": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Parece que no te dejaran partir con Beatriz.",
+    "position": "1"
+  },
+  "4": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Supongo que lo arruiné, debí haber seguido las reglas de San Pedro.",
+    "position": "0"
+  },
+  "5": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "No tan rápido, resulta que tu benefactor se comunicó conmigo y me pidió que te lleve con él.",
+    "position": "1"
+  },
+  "6": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Sígueme por, por aquí. ",
+    "position": "1"
+  },
+  "7": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Virgilio, ¿Qué hacemos en el infierno?",
+    "position": "0"
+  },
+  "8": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "¿Y tú quién crees que podría ser la persona que te observó todo tu tiempo aquí?",
+    "position": "1"
+  },
+  "9": {
+    "background": "Hell",
+    "animation": "true",
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Mira, ya llegamos.",
+    "position": "1"
+  },
+  "10": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Señor, aquí le he traído a su estrella.",
+    "position": "1"
+  },
+  "11": {
+    "image": "Lucifer_Feliz",
+    "name": "???_",
+    "text": "Dante, es un placer finalmente conocerte.",
+    "position": "1"
+  },
+  "12": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¡¡¿Beatriz?!!",
+    "position": "0"
+  },
+  "13": {
+    "image": "Lucifer_Feliz",
+    "name": "???_",
+    "text": "No. Mi nombre es Lucifer",
+    "position": "1"
+  },
+  "14": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Tomé esta forma para que seas capaz de comprenderme.",
+    "position": "1"
+  },
+  "15": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Le he pedido a Virgilio que te trajera hasta aquí porque quería agradecerte.",
+    "position": "1"
+  },
+  "16": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "En el corto periodo en el que supliste a ese amargado de San Pedro, ya no pasan almas inocentes por las puertas del infierno.",
+    "position": "1"
+  },
+  "17": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Los de arriba solo ben blancos y negros, no saben comprender que los humanos son seres grises, y que se necesita un criterio más amplio para decidir cómo pasaran su eternidad.",
+    "position": "1"
+  },
+  "18": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Y, como muestra de mi agradecimiento por tu ayuda para probar mi punto, te acompañare a tu audiencia con Dios, seguro podremos convencerlo de que sea blando contigo.",
+    "position": "1"
+  },
+  "19": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¿En serio?",
+    "position": "0"
+  },
+  "20": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": " Muchísima gracia, de todo corazón.",
+    "position": "0"
+  },
+  "21": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Ya, Ya, no hay de que agradecer.",
+    "position": "1"
+  },
+  "22": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Ahora, es momento de irnos.",
+    "position": "1"
+  },
+  "23": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Muy bien, este es el momento en el que nos separamos, no tengo permitido cruzar las puertas del cielo.",
+    "position": "1"
+  },
+  "24": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Te extrañare mucho amigo mío. Gracias, por todo.",
+    "position": "0"
+  },
+  "25": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Lo mismo digo, compañero. Espero volver a verte, algún día.",
+    "position": "1"
+  },
+  "26": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Ojalá y así sea.",
+    "position": "0"
+  },
+  "27": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Ah, y no olvides saludar a Beatriz de mi parte.",
+    "position": "1"
+  },
+  "28": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "¿Listo para esto?",
+    "position": "1"
+  },
+  "29": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Desde que puse un pie en el infierno.",
+    "position": "0"
+  },
+  "30": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer",
+    "text": "Bien dicho.",
+    "position": "1"
+  },
+  "31": {
+    "background": "Heaven",
+    "animation": "true",
+    "image": "Dios",
+    "name": "???_",
+    "text": "Bien venido hijo mío. Por favor, no temas, e adopte la forma de tu amada, para que no te asustes.",
+    "position": "1"
+  },
+  "32": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Descuida, no es el primero que lo hacen.",
+    "position": "0"
+  },
+  "33": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "Hola Padre.",
+    "position": "2"
+  },
+  "34": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Lucifer. Veo que has venido para abogar por tu protegido.",
+    "position": "1"
+  },
+  "35": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "Así es.",
+    "position": "2"
+  },
+  "36": {
+    "remove": [
+      {"position": "1" },
+      {"position": "2" }
+      ]
+  },
+  "37": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "¡¡Dante!!",
+    "position": "1"
+  },
+  "38": {
+    "image": "Dante_Extremo_Feliz",
+    "name": "Dante_",
+    "text": "Beatriz, amor mío. Que alegría me da al fin poder verte. No sabes cuánto te he estado buscando.",
+    "position": "0"
+  },
+  "39": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "descuida, pronto estaremos juntos.",
+    "position": "0"
+  },
+  "40": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Por desgracia; La decisión ya fue tomada. ",
+    "position": "1"
+  },
+  "41": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Dante Alighieri. Por no cumplir con las reglas de la iglesia, me temo que se te condeno a pasar toda la eternidad en el infierno de los herejes.",
+    "position": "1"
+  },
+  "42": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "¡¡¿Qué?!!",
+    "position": "2"
+  },
+  "43": {
+    "remove": [
+      {"position": "0" },
+      {"position": "2" }
+      ]
+  },
+  "44": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "¡Espera un segundo padre! No olvides la razón por la que accediste a que Dante tomara el puesto de Pedro.",
+    "position": "0"
+  },
+  "45": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Los métodos de la iglesia se han vuelto demasiado obsoletos para juzgar ha las almas de los humanos.",
+    "position": "0"
+  },
+  "46": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Y ha tenido su oportunidad, pero las almas que a dejado pasar al cielo no siguen con los estatutos impuestos.",
+    "position": "1"
+  },
+  "47": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer",
+    "text": "¿Pero cuantas de esas almas no son personas inocentes?",
+    "position": "0"
+  },
+  "48": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Los humanos empiezan a dejar de creer en ti, pero no por eso son dignas de caer en los infiernos, a vivir una eternidad de sufrimiento por herejía.",
+    "position": "0"
+  },
+  "49": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Por favor padre, te suplico que recapacites.",
+    "position": "0"
+  },
+  "50": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Ya estoy cansado de ver almas buenas e inocentes ser arrojadas a las llamas, todo por que vivieron sin complacerte.  ",
+    "position": "0"
+  },
+  "51": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "¿Cómo piensas que altere las normas que se llevan usando para juzgar a los humanos durante tantas centurias?",
+    "position": "1"
+  },
+  "52": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Del mismo modo que las cambiaste hace más de 2000 años, cuando Tu hijo bajo a los infiernos y saco a las almas inocentes nacidas antes del catolicismo, poniéndolas donde pertenecían.",
+    "position": "0"
+  },
+  "53": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "Los humanos han cambiado mucho en ese tiempo, y tú les diste esa capacidad de cambiar.",
+    "position": "0"
+  },
+  "54": {
+    "image": "Lucifer_Giro",
+    "name": "Lucifer_",
+    "text": "¿No deberíamos cambiar también nosotros?",
+    "position": "0"
+  },
+  "55": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "*Suspiro*",
+    "position": "1"
+  },
+  "56": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Tienes razón, los humanos de ahora merecen ser juzgados de manera correcta.",
+    "position": "1"
+  },
+  "57": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Teniendo en cuenta su entorno, y los caminos que los han llevado a ser lo que son.",
+    "position": "1"
+  },
+  "58": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Tendremos que cambiar el modo en el que hacemos las cosas por aquí.",
+    "position": "1"
+  },
+  "59": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Gracias, hijo mío, por abrirle los ojos a tu padre.",
+    "position": "1"
+  },
+  "60": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Y para ti dante, supongo que te concederé tu deseo.",
+    "position": "1"
+  },
+  "61": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Ambos sois libres para volver a la tierra y vivir una vida larga y feliz con los suyos.",
+    "position": "1"
+  },
+  "62": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Y, para cuando sea su momento de regresar aquí, serán juzgados como es debido.",
+    "position": "1"
+  },
+  "63": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": " Muchísimas gracias mi señor mi señor. Le prometo que viviremos una vida justa y bondadosa.",
+    "position": "0"
+  },
+  "64": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Oh mi señor Dios, Gracias por permitirme partir con mi amado. Le prometo que no le defraudaremos.",
+    "position": "2"
+  },
+  "65": {
+    "remove": [
+      {"position": "2" }
+      ]
+  },
+  "66": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "Te lo agradezco Lucifer, no sé qué hubiese pasado sin tu ayuda. ",
+    "position": "0"
+  },
+  "67": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Ya te dije que no me lo agradezcas.",
+    "position": "1"
+  },
+  "68": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Espero que sepas utilizar bien esta segunda oportunidad.",
+    "position": "1"
+  },
+  "69": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Es momento de que partan hijos míos.",
+    "position": "1"
+  },
+  "70": {
+    "background": "Earth",
+    "animation": "true",
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Estamos… devuelta.",
+    "position": "1"
+  },
+  "71": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Parece como si no hubiese pasado un segundo desde que me marche.",
+    "position": "0"
+  },
+  "72": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Oh, Dante, estoy tan feliz de estar contigo una vez más.",
+    "position": "1"
+  },
+  "73": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Siento que podría volver a morir de la felicidad.",
+    "position": "1"
+  },
+  "74": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "La misma felicidad siento yo vida mía. Sera mejor que aprovechemos esta oportunidad al máximo.",
+    "position": "0"
+  },
+  "75": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "Ven, tengo que mostrarte la cabaña que conseguí para los dos. Estoy seguro de que la amaras.",
+    "position": "0"
+  }
+}

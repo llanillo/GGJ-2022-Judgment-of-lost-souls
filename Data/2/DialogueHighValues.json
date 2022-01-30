@@ -1,0 +1,42 @@
+
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Hola, amigo.",
+    "position": "1"
+  },
+  "1": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¡Virgilio! Hola. ",
+    "position": "0"
+  },
+  
+  "2": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Veo que haces un buen trabajo.",
+    "position": "1"
+  },
+  "3": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Solo espero estar tomando las decisiones correctas. Pareciera que lo que es bueno y lo que es correcto son cosas muy distintas.",
+    "position": "0"
+  },
+  "4": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Así es, pero no es imposible encontrar un punto medio entre ambas, sé que podrás equilibrarlo. Solo presta atención a la magnitud de los pecados y qué los justifica, así será más fácil.",
+    "position": "1"
+  },
+  "5": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Gracias por los consejos, me esforzaré más mañana.",
+    "position": "0"
+  }
+}

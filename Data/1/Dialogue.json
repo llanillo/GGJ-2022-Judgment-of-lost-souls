@@ -1,0 +1,88 @@
+{  
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "...",
+    "position": "0"
+  },
+  "1": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "¿Y cómo te sientes?",
+    "position": "1"
+  },
+  "2": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Repulsivo. No creo ser el indicado para este trabajo.",
+    "position": "0"
+  },
+  "3": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Sabes, en la humilde opinión de este poeta, no hay nadie más calificado para tal labor que tú, amigo mío.",
+    "position": "1"
+  },
+  "4": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Por qué lo dices?",
+    "position": "0"
+  },
+  "5": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "He visto cientos de almas recorrer los infiernos, pero jamás me había topado con una persona capaz de sortear los 9 círculos del infierno, compadeciéndose de corazón de cada alma que se cruza a su paso.",
+    "position": "1"
+  },
+  "6": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Cuando nadie hubiese dado un mísero segundo de su tiempo para voltear a mirar a esas almas sin expresión de asco, tú prolongaste tu estadía en el infierno durante largas jornadas, solo para sentarte junto a los condenados y ofrecerles lágrimas de compasión.",
+    "position": "1"
+  },
+  "7": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Cualquier otro en mi lugar lo hubiera hecho.",
+    "position": "0"
+  },
+  "8": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Sí, pero tú fuiste el único que lo hizo y eso me demuestra que no hay nadie mejor para cargar con esta responsabilidad.",
+    "position": "1"
+  },
+  "9": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Sé que lo harás bien, solo sigue a tu corazón, el mismo que te llevó a presenciar todo este tormento solo por amor.",
+    "position": "1"
+  },
+  "10": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Muchas gracias por tus palabras de aliento Virgilio.",
+    "position": "0"
+  },
+  "11": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Cuando quieras, mi joven amigo. Ahora, si me disculpas, debo regresar a los Campos Elíseos, que ese lugar no es nada sin su comité de bienvenida.",
+    "position": "1"
+  },
+  "12": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Que tengas mucha suerte en tu jornada. Vendré a verte cuando termines.",
+    "position": "1"
+  },
+  "13": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Te estaré esperando.",
+    "position": "0"
+  }
+}

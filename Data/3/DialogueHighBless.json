@@ -1,0 +1,246 @@
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Veo que tomaste una decisión.",
+    "position": "1"
+  },
+  "1": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "¿Espero que sea la correcta.",
+    "position": "0"
+  },
+  "2": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "No seremos nosotros los que decidan eso, pero sé que tú sabes bien lo que sucederá.",
+    "position": "1"
+  },
+  "3": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Siento que estuve equivocado, que pude haberlo hecho mejor.",
+    "position": "0"
+  },
+  "4": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "También yo, pero ya está fuera de tu control.",
+    "position": "1"
+  },  
+  "5": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Ahora ven, es momento de tu audiencia.",
+    "position": "1"
+  },
+  "6": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Hasta aquí llego yo, del otro lado te espera el todo poderoso.",
+    "position": "1"
+  },
+  "7": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Muchas gracias amigo mío, por haber confiado en mí y ayudarme en todo mi camino. ",
+    "position": "0"
+  },
+  "8": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Lamento haberte decepcionado.",
+    "position": "0"
+  },
+  "9": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "No estoy decepcionado de ti. Supe desde el comienzo, que sea cual sea el camino que tomases, lo harías por amor, y no puedo decir nada en contra de lo hecho por amor puro. ",
+    "position": "1"
+  },  
+  "10": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Gracias por tus palabras Virgilio.",
+    "position": "0"
+  },
+  "11": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Ahora ve, te están esperando.",
+    "position": "1"
+  },
+  "12": {
+    "background": "Heaven",
+    "animation": "true",
+    "image": "Dios",
+    "name": "???_",
+    "text": "Bienvenido, hijo mío.",
+    "position": "1"
+  },
+  "13": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "¿Beatriz? ¿eres tú?",
+    "position": "0"
+  },
+  "14": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "No mi pequeño, adopte la forma de tu amada, para que pudieras comprenderme.",
+    "position": "1"
+  },
+  "15": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Tu amada se encuentra aquí.",
+    "position": "1"
+  },
+  "16": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "…",
+    "position": "1"
+  },
+  "17": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "¡Beatriz!",
+    "position": "0"
+  },
+  "18": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¡Beatriz!",
+    "position": "0"
+  },
+  "19": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Amada mía. No sabes cuánto eh pasado para llegar hasta ti.",
+    "position": "1"
+  },
+  "20": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Dante. ¿Cómo pudiste?",
+    "position": "1"
+  },
+  "21": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "¿Cómo pudiste condenar a todos esos inocentes?",
+    "position": "1"
+  },
+  "22": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Lo hice para poder llegar contigo, no tenía otra opción. ",
+    "position": "0"
+  },
+  "23": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "De lo contrario, no hubiésemos podido estar junto otra vez.",
+    "position": "0"
+  },
+  "24": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "¿Para estar juntos? ¿El sufrimiento de todas esas almas solo para estar junto a mí?",
+    "position": "1"
+  },
+  "25": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Si, vida mía, lo hice todo por ti.",
+    "position": "0"
+  },
+  "26": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "No!! Lo hiciste todo por ti, y por tu deseo egoísta de tenerme.",
+    "position": "1"
+  },
+  "27": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Por no poder dejarme ir.",
+    "position": "1"
+  },
+  "28": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Y ahora… no me tendrás; No puedo pasar la eternidad con alguien que allá cometido tales acatos.",
+    "position": "1"
+  },
+  "29": {
+    "image": "Beatriz",
+    "name": "Beatriz_",
+    "text": "Adiós, Dante, Que la eternidad sea leve con tu alma.",
+    "position": "1"
+  },
+  "30": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Beatriz, ¡Beatriz! ¡¡No te vallas, Por favor!!",
+    "position": "0"
+  },
+  "31": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡¡No me dejes!!",
+    "position": "0"
+  },
+  "32": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Dante. Por haber cumplido tu deber, como lo haría el mismísimo San Pedro, se te ha concedido el honor de pasar toda tu eternidad aquí, en el cielo.",
+    "position": "1"
+  },
+  "33": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Que seas feliz…",
+    "position": "1"
+  },
+  "34": {
+    "remove": [
+      {"position": "1" },
+      {"position": "2" }
+      ]
+  },
+  "35": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡¡NO!! No era esto lo que quería.",
+    "position": "0"
+  },
+  "36": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡¡Beatriz!! ¡¡¿Dónde estás?!!",
+    "position": "0"
+  },
+  "37": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡¡vuelve conmigo!!",
+    "position": "0"
+  },
+  "38": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡No!",
+    "position": "0"
+  },
+  "39": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "Me… dejes.",
+    "position": "0"
+  }
+}

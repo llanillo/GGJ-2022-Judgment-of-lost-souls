@@ -1,0 +1,60 @@
+{
+  "0": {
+    "image": "Fantasma",
+    "age": "86",
+    "name": "Tenzin Gyatso",
+    "death": "Paro cardíaco",
+    "story": "Monje líder del budismo tibetano, dedicó su vida a la búsqueda de la iluminación y a compartir su sabiduría y tradiciones con el resto del mundo. Murió pacíficamente mientras meditaba en el jardín de su templo.",
+    "options": [
+      {"karma": "2", "bless": "1"},
+      {"karma": "0", "bless": "0"},
+      {"karma": "-2", "bless": "-2"}
+      ]
+  },
+  "1": {
+    "image": "Fantasma",
+    "age": "25",
+    "name": "Dionisio Brando",
+    "death": "Fusilamiento",
+    "story": "Fue adoptado por una familia rica a los 10 años. A los 20, al enterarse que por ser adoptado y tener un hermanastro mayor, no heredaría la fortuna familiar, decidió difamar a su hermano y ganarse la confianza de sus padrastros mientras los envenenaba, buscando quedarse como único heredero y librarse de la familia. Sin embargo, su hermano descubrió el plan y le presentó las pruebas a su familia y a la policía, quienes procedieron a fusilarlo cuando, en un ataque de ira, Dionisio agredió a su padre con un cuchillo.",
+    "options": [
+      {"karma": "-2", "bless": "-2"},
+      {"karma": "0", "bless": "-1"},
+      {"karma": "1", "bless": "1"}
+      ]
+  },
+  "2": {
+    "image": "Fantasma",
+    "age": "36",
+    "name": "Bernardo de Trémelay",
+    "death": "Apuñalado en el corazón",
+    "story": "Un caballero templario, dedicó toda su vida a su fe y a evitar cualquier pecado. Luchó en las cruzadas hasta el final para recuperar la tierra santa, habiendo dado muerte a decenas de pecadores y herejes, todo en nombre de Dios.",
+    "options": [
+      {"karma": "-1", "bless": "2"},
+      {"karma": "0", "bless": "0"},
+      {"karma": "1", "bless": "-1"}
+      ]  }
+      ,
+  "3": {
+    "image": "Fantasma",
+    "age": "40",
+    "name": "Robin Hood",
+    "death": "Ahorcado",
+    "story": "Pasó su vida robando a los nobles, a los grandes señores, a la iglesia e incluso al propio rey de Francia, ganándose así la excomulgación de la iglesia y un alto precio por su cabeza; todo con el fin de dar ese dinero a los pobres y desamparados.",
+    "options": [
+      {"karma": "2", "bless": "-1"},
+      {"karma": "1", "bless": "0"},
+      {"karma": "-2", "bless": "2"}
+      ]  },
+  "4": {
+    "image": "Fantasma",
+    "age": "24",
+    "name": "Sabri Spellman",
+    "death": "Quemada viva",
+    "story": "Una joven amante de los libros y las ciencias, acusada por su propia familia de practicar brujería y artes oscuras. Fue condenada a muerte luego de que los sacerdotes de su pueblo llegaran a la conclusión de que ella había sido seducida por el demonio para aprender y querer ser más que un hombre.",
+    "options": [
+      {"karma": "2", "bless": "-2"},
+      {"karma": "0", "bless": "-1"},
+      {"karma": "-2", "bless": "1"}
+      ]  }
+}

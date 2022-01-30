@@ -1,0 +1,38 @@
+{
+  "0": {
+    "image": "Fantasma",
+    "age": "53",
+    "name": "Willy White",
+    "death": "Explosión química en un laboratorio de metanfetaminas.",
+    "story": "Luego de ser diagnosticado con cáncer decidió dedicar su vida a la creación y tráfico de drogas. Habiendo creado toda una red de narcotráfico, murió en su laboratorio luego de dejar caer unos químicos altamente volátiles.",
+    "options": [
+      {"karma": "-2", "bless": "-2"},
+      {"karma": "0", "bless": "-1"},
+      {"karma": "1", "bless": "2"}
+      ]
+  },
+  "1": {
+    "image": "Fantasma",
+    "age": "90",
+    "name": "Suzie Quentin",
+    "death": "Paro cardiorrespiratorio",
+    "story": "Una señora muy respetada en su comunidad. Dedicó su vida a cuidar de su familia y a ayudar a sus vecinos. Siempre con su biblia, una sesta de galletas y una cálida sonrisa.",
+    "options": [
+      {"karma": "2", "bless": "2"},
+      {"karma": "-1", "bless": "-1"},
+      {"karma": "-2", "bless": "-2"}
+      ]
+  },
+  
+  "2": {
+    "image": "Fantasma",
+    "age": "45",
+    "name": "Federico Mercurio.",
+    "death": "Deficiencia inmunitaria",
+    "story": "Un famoso artista que pasó sus años de fama viviendo de lujos y excesos, fiestas, drogas y sexo. Su actitud cambió cuando se le diagnosticó SIDA, dedicando los pocos años que le quedaron a la caridad y a la ayuda de gente con su mismo padecimiento.",
+    "options": [
+      {"karma": "2", "bless": "-1"},
+      {"karma": "1", "bless": "1"},
+      {"karma": "-1", "bless": "-1"}
+      ]  }
+}

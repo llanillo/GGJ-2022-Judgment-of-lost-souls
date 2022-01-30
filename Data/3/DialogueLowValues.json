@@ -1,0 +1,212 @@
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Dante ¿Qué has hecho?",
+    "position": "1"
+  },
+  "1": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "No lo sé. Intenté hacer lo que creí correcto, pero no salió nada bien.",
+    "position": "0"
+  },
+  "2": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Ahora veo que el trabajo del viejo Pedro era más difícil de lo que imaginaba.",
+    "position": "0"
+  },
+  "3": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "¿Qué pasara conmigo?",
+    "position": "0"
+  },
+  "4": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "No lo sé, pero tu audiencia se llevará acabo de inmediato.",
+    "position": "1"
+  },  
+  "5": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "¿Me acompañaras?",
+    "position": "0"
+  },
+  "6": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Lo ciento, pero no puedo seguirte.",
+    "position": "1"
+  },
+  "7": {
+    "image": "Virgilio",
+    "name": "Virgilio_",
+    "text": "Buena suerte, amigo mío.",
+    "position": "1"
+  },
+  "8": {
+    "background": "Heaven",
+    "animation": "true",
+    "image": "Dios",
+    "name": "???_",
+    "text": "Bienvenido, hijo mío.",
+    "position": "1"
+  },
+  "9": {
+    "image": "Lucifer",
+    "name": "???_",
+    "text": "...",
+    "position": "2"
+  },  
+  "10": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Beatriz? ¿Por qué son dos?",
+    "position": "0"
+  },
+  "11": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "No. Mi nombre es Lucifer",
+    "position": "2"
+  },
+  "12": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Y yo soy el que conoces como Dios. Hemos adoptado estas formas para que puedas interpretarnos.",
+    "position": "1"
+  },
+  "13": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Y, dónde está Beatriz?",
+    "position": "0"
+  },
+  "14": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "No quiso estar aquí. Dijo que el hombre del que se enamoró no sería capaz de hacer lo que tú has hecho.",
+    "position": "2"
+  },
+  "15": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Estamos muy decepcionados contigo. Te dimos la oportunidad de enseñarnos como un alma humana debe ser juzgada.",
+    "position": "1"
+  },
+  "16": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Pero solo nos mostraste un humano únicamente motivado por su deseo egoísta de ir en contra del destino.",
+    "position": "1"
+  },
+  "17": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "Creí que serias capaz de cambiar las cosas por aquí, pero de haber sabido las clases de decisiones que toarías, te hubiera dejado ahogándote en el Estigia.",
+    "position": "2"
+  },
+  "18": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Pero yo…",
+    "position": "0"
+  },
+  "19": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Nada de peros, Por tus acciones muchos pecadores vagan por el cielo.",
+    "position": "1"
+  },
+  "20": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "Y muchos inocentes están siendo torturados de manera injustos, por crímenes que no fueron su culpa.",
+    "position": "2"
+  },
+  "21": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Les pido disculpas de todo corazón, no entendía las consecuencias de mis acciones.",
+    "position": "0"
+  },
+  "22": {
+    "image": "Dante_Triste",
+    "name": "Dante_",
+    "text": "Por favor, sean clementes conmigo.",
+    "position": "0"
+  },
+  "23": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "La clemencia que se te tendrá será la misma que tuviste con todas esas almas.",
+    "position": "2"
+  },
+  "24": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Dante Alighieri. Por tus acciones como guardia de las puertas del purgatorio, se te condena a pasar, por cada círculo del infierno. ",
+    "position": "1"
+  },
+  "25": {
+    "image": "Lucifer",
+    "name": "Lucifer_",
+    "text": "Sufriendo los mismos castigos de los pecadores allí alojados.",
+    "position": "2"
+  },
+  "26": {
+    "image": "Dios",
+    "name": "Dios_",
+    "text": "Por toda la eternidad.",
+    "position": "1"
+  },
+  "27": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡No! ¡Todo lo hice por amor!",
+    "position": "0"
+  },
+  "28": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡Beatriz!",
+    "position": "0"
+  },
+  "29": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡¡Beeatriiiiiz!!",
+    "position": "0"
+  },
+  "30": {
+    "remove": [
+      {"position": "1" },
+      {"position": "2" }
+      ]
+  },
+  "31": {
+    "background": "Hell",
+    "animation": "true",
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "¡Beatriz!",
+    "position": "0"
+  },
+  "32": {
+    "image": "Dante_Llora",
+    "name": "Dante_",
+    "text": "Beatriz.",
+    "position": "0"
+  },
+  "33": {
+    "image": "Transparent",
+    "name": "Dante_",
+    "text": "Beatriz...",
+    "position": "0"
+  }
+}

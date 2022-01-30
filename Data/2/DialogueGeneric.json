@@ -1,0 +1,35 @@
+
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Hola, pequeño San Pedro. Parece que te va de maravilla.",
+    "position": "1"
+  },
+  "1": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Hola, Virgilio. Sí, parece que me estoy acostumbrando a este trabajo jejeje.",
+    "position": "0"
+  },
+  "2": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Llevas una buena racha, sigue así y pronto podrás ver a Beatriz.",
+    "position": "1"
+  },
+  "3": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¡Ja! No hay mejor motivación que esa. Me seguiré esforzando.",
+    "position": "0"
+  },
+  "4": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Así me gusta. Seguiré al tanto de tu progreso.",
+    "position": "1"
+  }
+}

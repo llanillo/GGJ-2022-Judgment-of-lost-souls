@@ -1,0 +1,101 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Scripts/MainMenu/Menu.cs" type="Script" id=1]
+[ext_resource path="res://Images/Background/Waiting_Room.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/MainMenu/MenuButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Fonts/Kingthings_Italique.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Audio/The_Earth_of_Dante.wav" type="AudioStream" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+outline_size = 1
+outline_color = Color( 0.878431, 0.266667, 0.266667, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 4 )
+
+[node name="Menu" type="Control"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -512.0
+margin_top = -300.0
+margin_right = 512.0
+margin_bottom = 300.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="VBox" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="VBox"]
+margin_right = 1024.0
+margin_bottom = 400.0
+rect_min_size = Vector2( 0, 400 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="VBox/CenterContainer"]
+margin_left = 226.0
+margin_top = 160.0
+margin_right = 797.0
+margin_bottom = 239.0
+rect_min_size = Vector2( 0, 25 )
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = SubResource( 1 )
+text = "The judgement of the lost souls"
+align = 1
+valign = 1
+
+[node name="VBox" type="VBoxContainer" parent="VBox"]
+margin_top = 404.0
+margin_right = 1024.0
+margin_bottom = 600.0
+size_flags_vertical = 3
+alignment = 1
+
+[node name="StartButton" parent="VBox/VBox" instance=ExtResource( 3 )]
+margin_top = 56.0
+margin_bottom = 81.0
+focus_neighbour_top = NodePath("../ExitButton")
+focus_neighbour_bottom = NodePath("../CreditsButton")
+ButtonText = "Iniciar"
+
+[node name="CreditsButton" parent="VBox/VBox" instance=ExtResource( 3 )]
+margin_top = 85.0
+margin_bottom = 110.0
+focus_neighbour_top = NodePath("../StartButton")
+focus_neighbour_bottom = NodePath("../ExitButton")
+ButtonText = "Créditos"
+
+[node name="ExitButton" parent="VBox/VBox" instance=ExtResource( 3 )]
+margin_top = 114.0
+margin_bottom = 139.0
+focus_neighbour_top = NodePath("../CreditsButton")
+focus_neighbour_bottom = NodePath("../StartButton")
+ButtonText = "Salir"
+
+[node name="Earth_Dante" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+volume_db = -20.0
+autoplay = true
+
+[connection signal="pressed" from="VBox/VBox/StartButton" to="." method="_on_StartButton_pressed"]
+[connection signal="pressed" from="VBox/VBox/CreditsButton" to="." method="_on_CreditsButton_pressed"]
+[connection signal="pressed" from="VBox/VBox/ExitButton" to="." method="_on_ExitButton_pressed"]

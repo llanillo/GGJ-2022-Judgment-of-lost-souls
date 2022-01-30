@@ -1,0 +1,397 @@
+{
+  "0": {
+    "background": "Purgatory",
+    "animation": "false",
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Dante. Me impresionaste, hiciste un trabajo magnifico.",
+    "position": "1"
+  },
+  "1": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Un trabajo que supera al mismísimo San Pedro.",
+    "position": "1"
+  },
+  "2": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Jajaja, muchas gracias mi amigo.",
+    "position": "0"
+  },
+  "3": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Espero haber impresionado a las personas indicadas.",
+    "position": "0"
+  },
+  "4": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "¿Las personas indicadas?",
+    "position": "1"
+  },  
+  "5": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Todos en el cielo están sorprendidos con tu labor.",
+    "position": "1"
+  },
+  "6": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Y eso no es todo, tanto Dios como tu benefactor te esperan en el cielo.",
+    "position": "1"
+  },
+  "7": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Pues ¿Qué esperamos?",
+    "position": "0"
+  },
+  "8": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Andando.",
+    "position": "0"
+  },
+  "9": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Espera, por desgracia nuestros caminos se separan aquí, no tengo permitido entrar a cielo. ",
+    "position": "1"
+  },  
+  "10": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "Es una pena. Me hubiera gustado tenerte a mi lado.",
+    "position": "0"
+  },
+  "11": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "En ese caso, permíteme agradecerte de todo corazón, hiciste incontables cosas por mí, y yo no pude retribuírtelo.",
+    "position": "0"
+  },
+  "12": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "No digas eso, aunque no lo parezca, aprendí mucho de ti y, además, te convertiste en mi amigo y eso posee un valor incalculable.",
+    "position": "1"
+  },
+  "13": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "El sentimiento es mutuo Virgilio.",
+    "position": "0"
+  },
+  "14": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Bien, basta de sentimentalismos o harás que llueva en el purgatorio.",
+    "position": "1"
+  },
+  "15": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "No puede llover en el purgatorio.",
+    "position": "0"
+  },
+  "16": {
+    "image": "Virgilio_Muy_Feliz",
+    "name": "Virgilio_",
+    "text": "*snif* En ocasiones sí.",
+    "position": "1"
+  },
+  "17": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Ahora ve, reúnete con tu amada, y no olvides saludarla de mi parte.",
+    "position": "1"
+  },
+  "18": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "No lo olvidare. Adiós Virgilio.",
+    "position": "0"
+  },
+  "19": {
+    "image": "Virgilio_Feliz",
+    "name": "Virgilio_",
+    "text": "Adiós compañero.",
+    "position": "1"
+  },
+  "20": {
+    "background": "Heaven",
+    "animation": "true",
+    "image": "Dios",
+    "name": "???_",
+    "text": "Bienvenido Hijo mío.",
+    "position": "1"
+  },
+  "21": {
+    "image": "Lucifer_Feliz",
+    "name": "???_",
+    "text": "Ya era hora de que llegaras.",
+    "position": "2"
+  },
+  "22": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Eh? ¿Dos Beatriz? ¿Qué está pasando?.",
+    "position": "0"
+  },
+  "23": {
+    "image": "Dios_Feliz",
+    "name": "???_",
+    "text": "No temas, hemos decidido adoptar estas formas, para que te sea más simple procesar nos.",
+    "position": "1"
+  },
+  "24": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Yo soy lucifer, y este junto a mi es el grandilocuente Dios.",
+    "position": "2"
+  },
+  "25": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Te hemos traído aquí para medir tus resultados.",
+    "position": "1"
+  },
+  "26": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Pero antes, hay alguien que se muere por verte.",
+    "position": "1"
+  },
+  "27": {
+    "image": "Beatriz_Feliz",
+    "name": "???_",
+    "text": "¡Dante!",
+    "position": "1"
+  },
+  "28": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "¿Beatriz?",
+    "position": "0"
+  },
+  "29": {
+    "image": "Dante_Extremo_Feliz",
+    "name": "Dante_",
+    "text": "¡Oh Beatriz! Te e extrañado mucho amor mío.",
+    "position": "0"
+  },
+  "30": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Y yo a ti, no sabes cuándo he rezado porque estés aquí.",
+    "position": "1"
+  },
+  "31": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "Perdón por hacerte esperar, pero ya estoy aquí.",
+    "position": "0"
+  },
+  "32": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Que alegría ¡Que alegría!",
+    "position": "1"
+  },
+  "33": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "jmm.",
+    "position": "1"
+  },
+  "34": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Todo esto es gracias a Lucifer, si él ni hubiera intervenido por ti, ustedes no podrían estar juntos hoy.",
+    "position": "1"
+  },
+  "35": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¿En serio? ¿Por qué señor Lucifer?",
+    "position": "0"
+  },
+  "36": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "¿A caso no es obvio? ",
+    "position": "2"
+  },
+  "37": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Porque confié en ti, ni más ni menos.",
+    "position": "2"
+  },
+  "38": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Cuando te vi recorrer mis dominios, no solo motivado por tu amor, sino también por tu compasión hacia las pobres almas condenadas.",
+    "position": "2"
+  },
+  "39": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Sabia que, si había alguien capaz de sorprender a mi padre, serias tú.",
+    "position": "2"
+  },
+  "40": {
+    "image": "Dante",
+    "name": "Dante_",
+    "text": "¿Sorprender, a Dios?",
+    "position": "0"
+  },
+  "41": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Así es, tu trabajo aquí fue admirable, y me ha abierto los ojos, sobre cómo deben hacerse las cosas, para que cada alma sufra, no solo un juicio justo, si no uno acorde a cada alma.",
+    "position": "1"
+  },
+  "42": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "El único que sale perdiendo aquí es el viejo pedro, tendrá que tomar una capacitación cuando regrese, eso si quiere mantener su trabajo.",
+    "position": "2"
+  },
+  "43": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Ahora, hijos míos, por tu excelente labor en estos últimos 3 días, les presento dos opciones.",
+    "position": "1"
+  },
+  "44": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "La primera es pasar la eternidad, aquí en el cielo, específicamente en el tercer cielo, uno específicamente dedicado para las almas amorosas.",
+    "position": "1"
+  },
+  "45": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Donde podrán estar juntos y amándose, por toda la eternidad.",
+    "position": "1"
+  },
+  "46": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Y la segunda, es pasar la eternidad en los campos Elíseos, viviendo junto a gente buena y grandes pensadores, de todas las épocas.",
+    "position": "2"
+  },
+  "47": {
+    "image": "Lucifer_Feliz",
+    "name": "Lucifer_",
+    "text": "Disfrutando de su propio rincón de soledad, de la compañía y de la buena comida.",
+    "position": "2"
+  },
+  "48": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Ambas son excelentes propuestas.",
+    "position": "0"
+  },
+  "49": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "¿Tu cual deseas, querida mía?",
+    "position": "0"
+  },
+  "50": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Cariño, pasaste por tanto que creo que esa decisión debes tomarla tú.",
+    "position": "1"
+  },
+  "51": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Yo estaré feliz con la que elijas. Por qué estaré a tu lado, para siempre.",
+    "position": "1"
+  },
+  "52": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "En ese caso…",
+    "position": "0"
+  },
+  "53": {
+    
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Nos quedaremos en el cielo, así podremos estar juntos, hasta el final de los tiempos y más allá.",
+    "position": "0"
+  },
+  "54": {
+    "image": "Dios_Feliz",
+    "name": "Dios_",
+    "text": "Y por mi nombre, así será.",
+    "position": "1"
+  },
+  "55": {
+    "image": "Lucifer_Feliz",
+    "name": "???_",
+    "text": "Que tengan una hermosa eternidad.",
+    "position": "2"
+  },
+  "56": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Muchísimas gracias, a ambos.",
+    "position": "0"
+  },
+  "57": {
+    "remove": [
+      {"position": "1" },
+      {"position": "2" }
+      ]
+  },
+  "58": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Parece que ahora estamos solos.",
+    "position": "1"
+  },  
+  "59": {
+    "image": "Dante_Muy_Feliz",
+    "name": "Dante_",
+    "text": "Después de tanto tiempo. Tengo muchas cosas para contarte.",
+    "position": "0"
+  },
+  "60": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Pues, tenemos mucho tiempo.",
+    "position": "1"
+  },
+  "61": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "¿Por dónde te gustaría comenzar?",
+    "position": "1"
+  },
+  "62": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "…",
+    "position": "0"
+  },
+  "63": {
+    "image": "Dante_Feliz",
+    "name": "Dante_",
+    "text": "Te amo Beatriz.",
+    "position": "0"
+  },  
+  "64": {
+    "image": "Beatriz_Feliz",
+    "name": "Beatriz_",
+    "text": "Y yo te amo a ti, mi amor.",
+    "position": "1"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "0": {
+    "image": "Fantasma",
+    "age": "50",
+    "name": "John Wayne",
+    "death": "Contusiones cerebrales.",
+    "story": "Este hombre acostumbraba a disfrazarse de payaso y a secuestrar, violar y matar a niños pequeños. Conocido como el payaso Pogo, se le adjudica una lista de 33 víctimas. Encontró su final cuando fue golpeado en la cabeza por un familiar de una de sus víctimas, mientras se encontraba en la cárcel.",
+    "options": [
+      {"karma": "-2", "bless": "-2"},
+      {"karma": "-1", "bless": "-1"},
+      {"karma": "2", "bless": "2"}
+      ]
+  },
+  "1": {
+    "image": "Fantasma",
+    "age": "20",
+    "name": "Juana Capuleto",
+    "death": "Envenenamiento",
+    "story": "Perteneciente a una familia rica, vivió toda su vida con la idea de que se casaría con un socio rico de su padre, pero todo cambió cuando se enamoró de un joven de la calle, con el que terminó planeando escapar; sin embargo, terminaron siendo acorralados por su padre, por lo cual decidieron quitarse la vida, con la esperanza de encontrarse del otro lado.",
+    "options": [
+      {"karma": "2", "bless": "2"},
+      {"karma": "-1", "bless": "-1"},
+      {"karma": "-2", "bless": "-2"}
+      ]
+  },
+  "2": {
+    "image": "Fantasma",
+    "age": "22",
+    "name": "Ramón Montesco.",
+    "death": "Apuñalado en el corazón",
+    "story": "Vivió toda su vida en la pobreza, robando y engañando para poder vivir, hasta que conoció a una joven rica que se enamoró de él. Planeó engañarla y robarle toda su herencia cuando se casaran, pero con el tiempo se enamoró de ella. Cuando decidieron fugarse, padeció el mayor de los horrores, al ver a su amada tomar su propia vida. En sus últimos momentos, se clavó una daga en el corazón mientras se culpaba por llevar a una joven inocente a tal cruel final, esperando verla en el más allá para suplicarle por su perdón.",
+    "options": [
+      {"karma": "2", "bless": "-1"},
+      {"karma": "0", "bless": "0"},
+      {"karma": "-2", "bless": "1"}
+      ]  }
+      ,
+  "3": {
+    "image": "Fantasma",
+    "age": "87",
+    "name": "Agnes B.",
+    "death": "Insuficiencia cardíaca",
+    "story": "Conocida mundialmente como una santa caritativa, ganó un premio nobel de la paz por sus diversas misiones. Sin embargo, pocos saben que las casas de ayuda a los enfermos y desamparados eran en realidad casas en las que los congregaban, sin proporcionarles ayuda alguna, porque para ella los enfermos debían sufrir como Cristo lo hizo, pero, cuando ella misma cayó enferma, se internó en un hospital de California. También recibió una fortuna por parte de un dictador en Haití, al cual apoyaba. A pesar de todo esto, fue declarada santa por la iglesia.",
+    "options": [
+      {"karma": "-1", "bless": "2"},
+      {"karma": "1", "bless": "0"},
+      {"karma": "-1", "bless": "-2"}
+      ]  },
+  "4": {
+    "image": "Fantasma",
+    "age": "3 Meses",
+    "name": "----",
+    "death": "Ahogado",
+    "story": "Este niño murió sin ser bautizado, ahogado por su propia madre luego de que ella tuviera una sobre dosis con antidepresivos, enloqueciendo y pensando que su hijo era el mal encarnado, decidió ponerle fin a su tiranía. ",
+    "options": [
+      {"karma": "2", "bless": "-2"},
+      {"karma": "0", "bless": "1"},
+      {"karma": "-2", "bless": "-1"}
+      ]  }
+}

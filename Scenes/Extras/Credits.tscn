@@ -1,11 +1,10 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Images/Background/GlobalJam.png" type="Texture" id=1]
 [ext_resource path="res://Fonts/Dongle-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Images/Button/Arrow.png" type="Texture" id=3]
 [ext_resource path="res://Scripts/Extras/Credits.cs" type="Script" id=4]
 [ext_resource path="res://Images/Button/Hover_Arrow.png" type="Texture" id=5]
-[ext_resource path="res://Audio/The_Earth_of_Dante.wav" type="AudioStream" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
 bg_color = Color( 0, 0, 0, 0.756863 )
@@ -207,10 +206,5 @@ flip_h = true
 __meta__ = {
 "_edit_use_anchors_": true
 }
-
-[node name="Earth_Dante" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 6 )
-volume_db = -25.0
-autoplay = true
 
 [connection signal="pressed" from="TextureButton" to="." method="OnTextureButtonPressed"]

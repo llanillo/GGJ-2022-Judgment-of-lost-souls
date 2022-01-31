@@ -1,10 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Scripts/MainMenu/Menu.cs" type="Script" id=1]
 [ext_resource path="res://Images/Background/Waiting_Room.png" type="Texture" id=2]
 [ext_resource path="res://Scenes/MainMenu/MenuButton.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Fonts/Kingthings_Italique.ttf" type="DynamicFontData" id=4]
-[ext_resource path="res://Audio/The_Earth_of_Dante.wav" type="AudioStream" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 70
@@ -90,11 +89,6 @@ margin_bottom = 139.0
 focus_neighbour_top = NodePath("../CreditsButton")
 focus_neighbour_bottom = NodePath("../StartButton")
 ButtonText = "Salir"
-
-[node name="Earth_Dante" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 5 )
-volume_db = -20.0
-autoplay = true
 
 [connection signal="pressed" from="VBox/VBox/StartButton" to="." method="_on_StartButton_pressed"]
 [connection signal="pressed" from="VBox/VBox/CreditsButton" to="." method="_on_CreditsButton_pressed"]

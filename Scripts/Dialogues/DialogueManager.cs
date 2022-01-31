@@ -15,13 +15,11 @@ public class DialogueManager : Dialogue
 
     [Signal]
     public delegate void TransitionBackground(string backgroundPath, bool playAnim);
-    [Signal]
-    public delegate void TransitionSong(GameMusic gameMusic);
 
     public override string JsonName { get; } = "/Dialogue";
     public override string NodePath { get; } = "TextPanel/Margin/VBox/";
 
-    private AudioStreamPlayer _audioPlayer;
+    private MusicManager _musicManager;
     private TextureRect _leftPortrait;
     private TextureRect _rightPortrait;
     private TextureRect _middlePortrait;
@@ -35,7 +33,7 @@ public class DialogueManager : Dialogue
         _middlePortrait = GetNode<TextureRect>("MiddlePortrait");
         _rightPortrait = GetNode<TextureRect>("RightPortrait");
         _textManager = GetNode<Node>("TextPanel") as TextManager;
-        _audioPlayer = GetNode<AudioStreamPlayer>("Music");
+        _musicManager = GetNode<MusicManager>("/root/Music");
     }
 
     // Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -78,30 +76,27 @@ public class DialogueManager : Dialogue
                 {
                     string background = (string) dialogue["background"];
                     EmitSignal("TransitionBackground", background, bool.Parse((string) dialogue["animation"]));
-                    if (background.Equals("Purgatory") || background.Equals("Waiting_Room"))
+
+                    switch (background.ToUpper())
                     {
-                        EmitSignal("TransitionSong", GameMusic.PURGATORY);
-                    }
-                    else if (background.Contains("Black"))
-                    {
-                        EmitSignal("TransitionSong", GameMusic.NONE);
-                    }
-                    else if (background.Contains("Heaven"))
-                    {
-                        EmitSignal("TransitionSong", GameMusic.HEAVEN);
-                    }
-                    else if (background.Contains("Hell"))
-                    {
-                        EmitSignal("TransitionSong", GameMusic.HELL);
-                    }
-                    else if (background.Contains("Earth"))
-                    {
-                        EmitSignal("TransitionSong", GameMusic.EARTH);
-                    }
-                    else
-                    {
-                        GD.Print("No se encontro cancion");
-                    }                    
+                        case "EARTH":
+                        case "PURGATORY":
+                        case "WAITING_ROOM":
+                            _musicManager.ChangeMusic(GameMusic.PURGATORY);
+                            break;
+                        case "BLACK":
+                            _musicManager.ChangeMusic(GameMusic.NONE);
+                            break;
+                        case "HEAVEN":
+                            _musicManager.ChangeMusic(GameMusic.HEAVEN);
+                            break;
+                        case "HELL":
+                            _musicManager.ChangeMusic(GameMusic.HELL);
+                            break;
+                        default:
+                            GD.Print("No se encontro cancion");
+                            break;
+                    }                  
                 }
 
                 string image = (string) dialogue["image"] + ".png";

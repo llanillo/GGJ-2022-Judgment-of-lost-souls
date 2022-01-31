@@ -1,9 +1,8 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://Fonts/Dongle-Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scripts/Dialogues/OptionManager.cs" type="Script" id=2]
 [ext_resource path="res://Images/Background/Purgatory.png" type="Texture" id=3]
-[ext_resource path="res://Audio/The_Purgatory_of_Dante.wav" type="AudioStream" id=4]
 [ext_resource path="res://Images/Button/Triangle.png" type="Texture" id=6]
 
 [sub_resource type="StyleBoxFlat" id=1]
@@ -404,11 +403,6 @@ texture = ExtResource( 6 )
 centered = false
 
 [node name="TextTween" type="Tween" parent="."]
-
-[node name="Purgatory_Dante" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 4 )
-volume_db = -5.0
-autoplay = true
 
 [connection signal="pressed" from="Panel/Margin/VBox/HeavenButton" to="." method="OnHeavenButtonPressed"]
 [connection signal="pressed" from="Panel/Margin/VBox/PurgatoryButton" to="." method="OnPurgatoryButtonPressed"]

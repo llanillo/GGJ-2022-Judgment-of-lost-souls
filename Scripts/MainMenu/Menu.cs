@@ -12,6 +12,7 @@ public class Menu : Node
     {
         GetNode<TextureButton>("VBox/VBox/StartButton").GrabFocus();
         GetNode<PlayerVariables>("/root/PlayerVariables").ResetValues();
+        GetNode<MusicManager>("/root/Music").ChangeMusic(GameMusic.EARTH);
         _gameManager = GetNode<GameManager>("/root/GameManager");
         _gameManager.Ended = false;
         _gameManager.SceneNumber = 0;

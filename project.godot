@@ -16,9 +16,9 @@ config/icon="res://Fonts/icon.png"
 
 [autoload]
 
-Music="*res://Scenes/Extras/Music.tscn"
 PlayerVariables="*res://Scripts/Manager/PlayerVariables.cs"
 GameManager="*res://Scripts/Manager/GameManager.cs"
+Music="*res://Scenes/Extras/Music.tscn"
 
 [display]
 

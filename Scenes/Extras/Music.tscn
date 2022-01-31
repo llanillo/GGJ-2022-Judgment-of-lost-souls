@@ -1,22 +1,19 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Audio/Espejismo.wav" type="AudioStream" id=1]
+[ext_resource path="res://Scripts/Extras/MusicManager.cs" type="Script" id=1]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+MusicPath = "res://Audio"
 
-[node name="Espejismo" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 1 )
-volume_db = -10.0
+[node name="Player" type="AudioStreamPlayer" parent="."]
+volume_db = -20.0
 
-[node name="Earth" type="AudioStreamPlayer" parent="."]
-
-[node name="Heaven" type="AudioStreamPlayer" parent="."]
-
-[node name="Purgatory(Soulless)" type="AudioStreamPlayer" parent="."]
-
-[node name="Purgatory" type="AudioStreamPlayer" parent="."]
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true

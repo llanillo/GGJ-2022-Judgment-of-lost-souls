@@ -27,6 +27,7 @@ public class OptionManager : Dialogue
     public override void _Ready()
     {
         base._Ready();
+        GetNode<MusicManager>("/root/Music").ChangeMusic(GameMusic.PURGATORY);
         _nameLabel = GetNode<Label>(NodePath + "NamePanel/Margin/Name");
         _ageLabel = GetNode<Label>(LabelPath + "Age");
         _deathCauseLabel = GetNode<Label>(LabelPath + "DeathText");

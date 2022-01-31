@@ -1,11 +1,10 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://Fonts/Dongle-Bold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scripts/Dialogues/DialogueManager.cs" type="Script" id=2]
 [ext_resource path="res://Scripts/Dialogues/ContinueButton.cs" type="Script" id=3]
 [ext_resource path="res://Images/Button/Continue_Button.png" type="Texture" id=4]
 [ext_resource path="res://Images/Background/Black.png" type="Texture" id=5]
-[ext_resource path="res://Scripts/Dialogues/MusicManager.cs" type="Script" id=6]
 [ext_resource path="res://Audio/Click_Texto.wav" type="AudioStream" id=7]
 [ext_resource path="res://Scripts/Dialogues/BackgroundManager.cs" type="Script" id=8]
 [ext_resource path="res://Scripts/Dialogues/TextManager.cs" type="Script" id=9]
@@ -138,7 +137,7 @@ BackgroundPath = "res://Images/Background"
 margin_left = 7.0
 margin_top = 7.0
 margin_right = 1033.0
-margin_bottom = 610.0
+margin_bottom = 610.003
 expand = true
 
 [node name="SecondaryBackground" type="Sprite" parent="PanelBackground"]
@@ -308,11 +307,6 @@ __meta__ = {
 "_edit_use_anchors_": false,
 "_editor_description_": ""
 }
-
-[node name="Music" type="AudioStreamPlayer" parent="."]
-volume_db = -10.0
-script = ExtResource( 6 )
-MusicPath = "res://Audio"
 
 [connection signal="pressed" from="TextPanel/Margin/VBox/ContinueButton" to="TextPanel" method="OnContinueButtonPressed"]
 [connection signal="tween_completed" from="TextPanel/Margin/VBox/TextTween" to="TextPanel" method="OnTextTweenTweenCompleted"]

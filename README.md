@@ -24,6 +24,7 @@ Requirements:
 ```bash
 $ git clone https://github.com/llanillo/GGJ-2022-Judgment-of-lost-souls
 ```
+**Note:** In case you are getting 'Script not found exception', then go to Project > Tools > C# > Generate solution
 
 ## Play
 Download and play it [here](https://github.com/llanillo/GGJ-2022-Judgment-of-lost-souls/releases/tag/v1.0.0)

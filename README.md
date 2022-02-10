@@ -31,8 +31,8 @@ Download and play it [here](https://github.com/llanillo/GGJ-2022-Judgment-of-los
 
 
 ## Screenshots
-![Esta es una imagen](Screenshots/2.png)
-![Esta es una imagen](Screenshots/1.png)
+![Judgement of the Lost Souls - Dialogue System](Screenshots/2.png)
+![Judgement of the Lost Souls - Option System](Screenshots/1.png)
 
 ## Credits
 This would not have been possible without these **wonderful people**

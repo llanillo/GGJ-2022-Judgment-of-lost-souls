@@ -5,19 +5,15 @@ Entry game for the event Global Game Jam 2022. [Official site to the game](https
 ## Description
 **The Judgement of the Lost Souls** is a 2d narrative adventure where you will play as Dante who wants to see once more his beloved Beatriz, to achieve this, you must first replace Saint Peter in his work of judging souls.
 
-Depending on your decisions you can get different endings.
-
-#### Built with
-- Godot 3.4.2 (Mono version)
-- Visual studio 2019
+Depending on your decisions you will get different endings.
 
 ## Installation
 
-Requirements:
+### Requirements:
 - [Godot Engine (Mono version) 3.4.2 or higher](https://godotengine.org/download)
 - [.NET SDK 6.0 or higher](https://dotnet.microsoft.com/en-us/download)
 
-1. Download and install all the requirements
+1. Download and set up all the requirements
 2. Git clone it
 3. Open it with Godot Engine
 

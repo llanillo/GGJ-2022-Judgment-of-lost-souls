@@ -10,7 +10,7 @@
   "1": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "¿Espero que sea la correcta.",
+    "text": "Espero que sea la correcta.",
     "position": "0"
   },
   "2": {
@@ -40,13 +40,13 @@
   "6": {
     "image": "Virgilio",
     "name": "Virgilio_",
-    "text": "Hasta aquí llego yo, del otro lado te espera el todo poderoso.",
+    "text": "Hasta aquí llego yo, del otro lado te espera el todopoderoso.",
     "position": "1"
   },
   "7": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "Muchas gracias amigo mío, por haber confiado en mí y ayudarme en todo mi camino. ",
+    "text": "Muchas gracias, amigo mío, por haber confiado en mí y ayudarme en todo el camino.",
     "position": "0"
   },
   "8": {
@@ -58,13 +58,13 @@
   "9": {
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": "No estoy decepcionado de ti. Supe desde el comienzo, que sea cual sea el camino que tomases, lo harías por amor, y no puedo decir nada en contra de lo hecho por amor puro. ",
+    "text": "No estoy decepcionado de ti. Supe desde el comienzo que, fuese cual fuese el camino que tomases, lo harías por amor, y no puedo decir nada en contra de lo hecho por amor puro.",
     "position": "1"
   },  
   "10": {
     "image": "Dante_Feliz",
     "name": "Dante_",
-    "text": "Gracias por tus palabras Virgilio.",
+    "text": "Gracias por tus palabras, Virgilio.",
     "position": "0"
   },
   "11": {
@@ -84,13 +84,13 @@
   "13": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "¿Beatriz? ¿eres tú?",
+    "text": "¿Beatriz? ¿Eres tú?",
     "position": "0"
   },
   "14": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "No mi pequeño, adopte la forma de tu amada, para que pudieras comprenderme.",
+    "text": "No, mi pequeño. Adopté la forma de tu amada para que pudieras comprenderme.",
     "position": "1"
   },
   "15": {
@@ -120,13 +120,13 @@
   "19": {
     "image": "Beatriz",
     "name": "Beatriz_",
-    "text": "Amada mía. No sabes cuánto eh pasado para llegar hasta ti.",
+    "text": "Amada mía. No sabes cuánto he pasado para llegar hasta ti.",
     "position": "1"
   },
   "20": {
     "image": "Beatriz",
     "name": "Beatriz_",
-    "text": "Dante. ¿Cómo pudiste?",
+    "text": "Dante ¿Cómo pudiste?",
     "position": "1"
   },
   "21": {
@@ -138,13 +138,13 @@
   "22": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "Lo hice para poder llegar contigo, no tenía otra opción. ",
+    "text": "Lo hice para poder llegar a tí, no tenía otra opción.",
     "position": "0"
   },
   "23": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "De lo contrario, no hubiésemos podido estar junto otra vez.",
+    "text": "De lo contrario, no hubiésemos podido estar juntos otra vez.",
     "position": "0"
   },
   "24": {
@@ -156,13 +156,13 @@
   "25": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "Si, vida mía, lo hice todo por ti.",
+    "text": "Sí, vida mía, lo hice todo por tí.",
     "position": "0"
   },
   "26": {
     "image": "Beatriz",
     "name": "Beatriz_",
-    "text": "No!! Lo hiciste todo por ti, y por tu deseo egoísta de tenerme.",
+    "text": "¡No! Lo hiciste todo por tí y por tu deseo egoísta de tenerme.",
     "position": "1"
   },
   "27": {
@@ -174,19 +174,19 @@
   "28": {
     "image": "Beatriz",
     "name": "Beatriz_",
-    "text": "Y ahora… no me tendrás; No puedo pasar la eternidad con alguien que allá cometido tales acatos.",
+    "text": "Y ahora… no me tendrás. No puedo pasar la eternidad con alguien que haya cometido tales acatos.",
     "position": "1"
   },
   "29": {
     "image": "Beatriz",
     "name": "Beatriz_",
-    "text": "Adiós, Dante, Que la eternidad sea leve con tu alma.",
+    "text": "Adiós, Dante, que la eternidad sea leve con tu alma.",
     "position": "1"
   },
   "30": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "Beatriz, ¡Beatriz! ¡¡No te vallas, Por favor!!",
+    "text": "Beatriz ¡Beatriz! ¡No te vayas, por favor!",
     "position": "0"
   },
   "31": {
@@ -198,7 +198,7 @@
   "32": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "Dante. Por haber cumplido tu deber, como lo haría el mismísimo San Pedro, se te ha concedido el honor de pasar toda tu eternidad aquí, en el cielo.",
+    "text": "Dante, por haber cumplido tu deber, como lo haría el mismísimo San Pedro, se te ha concedido el honor de pasar toda tu eternidad aquí, en el cielo.",
     "position": "1"
   },
   "33": {
@@ -216,7 +216,7 @@
   "35": {
     "image": "Dante_Llora",
     "name": "Dante_",
-    "text": "¡¡NO!! No era esto lo que quería.",
+    "text": "¡¡NO!! Esto no era lo que quería.",
     "position": "0"
   },
   "36": {
@@ -228,19 +228,19 @@
   "37": {
     "image": "Dante_Llora",
     "name": "Dante_",
-    "text": "¡¡vuelve conmigo!!",
+    "text": "¡¡Vuelve conmigo!!",
     "position": "0"
   },
   "38": {
     "image": "Dante_Llora",
     "name": "Dante_",
-    "text": "¡No!",
+    "text": "No...",
     "position": "0"
   },
   "39": {
     "image": "Dante_Llora",
     "name": "Dante_",
-    "text": "Me… dejes.",
+    "text": "me… dejes.",
     "position": "0"
   }
 }

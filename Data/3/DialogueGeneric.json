@@ -4,7 +4,7 @@
     "animation": "false",
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": "Hola amigo.",
+    "text": "Hola, amigo.",
     "position": "1"
   },
   "1": {
@@ -16,7 +16,7 @@
   "2": {
     "image": "Dante_Feliz",
     "name": "Dante_",
-    "text": "Virgilio. Creo que hice un trabajo decente.",
+    "text": "¡Virgilio! Creo que hice un trabajo decente.",
     "position": "0"
   },
   "3": {
@@ -28,7 +28,7 @@
   "4": {
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": "¿No soy quien para juzgar eso mi amigo, pero si estoy seguro de que serán tan justos contigo como, tú lo has sido con los demás.",
+    "text": "¿No soy quién para juzgar eso, mi amigo, pero sí estoy seguro de que serán tan justos contigo, como tú lo has sido con los demás.",
     "position": "1"
   },  
   "5": {
@@ -40,19 +40,19 @@
   "6": {
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": "Ahora, es momento de tu audiencia. ",
+    "text": "Ahora es momento de tu audiencia.",
     "position": "1"
   },
   "7": {
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": ". Por desgracia, nuestros caminos se separan aquí. ",
+    "text": "Por desgracia, nuestros caminos se separan aquí.",
     "position": "1"
   },
   "8": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "Es una pena. Me hubiera gustado tenerte a mi lado.",
+    "text": "Es una pena, me hubiera gustado tenerte a mi lado.",
     "position": "0"
   },
   "9": {
@@ -64,13 +64,13 @@
   "10": {
     "image": "Virgilio_Feliz",
     "name": "Virgilio_",
-    "text": "Ahora ve. No los hagas esperar más.",
+    "text": "Ahora ve, no los hagas esperar más.",
     "position": "1"
   },
   "11": {
     "image": "Dante_Feliz",
     "name": "Dante_",
-    "text": "Gracias buen amigo. Nos veremos luego.",
+    "text": "Gracias, buen amigo. Nos veremos luego.",
     "position": "0"
   },
   "12": {
@@ -102,13 +102,13 @@
   "16": {
     "image": "Lucifer_Feliz",
     "name": "???_",
-    "text": "No somos tu amada. Tomaos esta forma para tu comprensión.",
+    "text": "No somos tu amada, tomamos esta forma para tu comprensión.",
     "position": "2"
   },
   "17": {
     "image": "Lucifer_Feliz",
     "name": "Lucifer_",
-    "text": "Yo soy lucifer, la estrella de la mañana, y este prepotente ser es el que conoces como Dios.",
+    "text": "Yo soy lucifer, la estrella de la mañana y este prepotente ser es el que conoces como Dios.",
     "position": "2"
   },
   "18": {
@@ -126,67 +126,67 @@
   "20": {
     "image": "Beatriz_Feliz",
     "name": "Beatriz_",
-    "text": "Oh Dante, que alegría me da verte al fin.",
+    "text": "¡Oh Dante, que alegría me da verte al fin!",
     "position": "1"
   },
   "21": {
     "image": "Dante_Extremo_Feliz",
     "name": "Dante_",
-    "text": "Beatriz! Te extrañe tanto mi amor. No sabes cuánto te he buscado.",
+    "text": "¡Beatriz! Te extrañé tanto, mi amor. No sabes cuánto te he buscado.",
     "position": "0"
   },
   "22": {
     "image": "Beatriz_Feliz",
     "name": "Beatriz_",
-    "text": "Lo se mi amor, te estuve observado, a cada paso de tu viaje, y resé por ti, para que puedas llegar a salvo junto a mí.",
+    "text": "Lo sé, mi amor. Te estuve observando a cada paso de tu viaje y recé por ti, para que puedieras llegar a salvo junto a mí.",
     "position": "1"
   },
   "23": {
     "image": "Lucifer",
     "name": "Lucifer_",
-    "text": "No tan rápido. Aun debemos celebrar tu juicio.",
+    "text": "¡No tan rápido! Aún debemos celebrar tu juicio.",
     "position": "2"
   },
   "24": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "Dante, ingresaste al mundo de los muertos y fracasaste, esto te hubiese condenado a el olvido eterno.",
+    "text": "Dante, ingresaste al mundo de los muertos y fracasaste, esto te hubiese condenado al olvido eterno.",
     "position": "1"
   },
   "25": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "Pero, Lucifer intervino por ti, para darte una segunda oportunidad.",
+    "text": "Pero Lucifer intervino por tí para darte una segunda oportunidad.",
     "position": "1"
   },
   "26": {
     "image": "Dante_Extremo_Feliz",
     "name": "Dante_",
-    "text": "¿Fue usted? ¿Por qué se apiado de mí?",
+    "text": "¿Fue usted? ¿Por qué se apiadó de mí?",
     "position": "0"
   },
   "27": {
     "image": "Lucifer",
     "name": "Lucifer_",
-    "text": "Esperaba que alguien como tu pudiera darnos una mejor perspectiva de cómo se debería juzgar un alma humana. Pero, al parecer, no eras la persona más indicada para este trabajo.",
+    "text": "Esperaba que alguien como tú pudiera darnos una mejor perspectiva de cómo se debería juzgar un alma humana. Pero, al parecer, no eras la persona más indicada para este trabajo.",
     "position": "2"
   },
   "28": {
     "image": "Dante_Triste",
     "name": "Dante_",
-    "text": "acaso ¿Fracase?",
+    "text": "Acaso ¿Fracasé?",
     "position": "0"
   },
   "29": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "No nos mal intérpretes, hiciste un trabajo decente, pero tus aportaciones no fueron lo suficientemente significantes como para que se te conceda el perdón divino.",
+    "text": "Hiciste un trabajo decente, pero tus aportaciones no fueron lo suficientemente significantes como para que se te conceda el perdón divino.",
     "position": "1"
   },
   "30": {
     "image": "Lucifer",
     "name": "Lucifer_",
-    "text": "Pero tampoco cometiste fallas suficientes para que se te considere un pecador.",
+    "text": "Tampoco cometiste tantas fallas como para que se te considere un pecador.",
     "position": "2"
   },
   "31": {
@@ -198,19 +198,19 @@
   "32": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "Dante Alighieri, debido a tu desempeño, deberás pasar 1000 años en el purgatorio, compadeciéndote, no por ti, sino por las demás almas que te roden.",
+    "text": "Dante Alighieri, debido a tu desempeño, deberás pasar 1000 años en el purgatorio, compadeciéndote, no por ti, sino por las demás almas que te rodean.",
     "position": "1"
   },
   "33": {
     "image": "Dios",
     "name": "Dios_",
-    "text": "De ese modo, esas almas podrán acceder al cielo antes de lo estipulado, ya que otra alma rezara por ellos. ",
+    "text": "De ese modo, esas almas podrán acceder al cielo antes de lo estipulado.",
     "position": "1"
   },
   "34": {
     "image": "Lucifer_Feliz",
     "name": "Lucifer_",
-    "text": "Y descuida, si esas alas se acuerdan de ti, una vez que se encuentren en el cielo, rezaran por ti también, lo que reducirá tu condena.",
+    "text": "Y descuida, si esas almas se acuerdan de tí, una vez que se encuentren en el cielo, rezarán por tí también, lo que reducirá tu condena.",
     "position": "2"
   },
   "35": {
@@ -222,64 +222,58 @@
   "36": {
     "image": "Beatriz_Feliz",
     "name": "Beatriz_",
-    "text": "Descuida, amado mío. Yo esperare y rezare por ti, para que así podamos estar juntos, y me asegurare de que las almas que hayas ayudado no se olviden de ti.",
+    "text": "Descuida, amado mío. Yo esperaré y rezaré por tí, para que así podamos estar juntos, y me aseguraré de que las almas que hayas ayudado no se olviden de tí.",
     "position": "1"
   },
   "37": {
     "image": "Dante_Feliz",
     "name": "Dante_",
-    "text": "Querida mía, una vez más compruebo que un alma tan bondadosa como al tuya, está en el lugar correcto y pondré todo de mí, para ser digno de estar a tu lado.",
+    "text": "Querida mía, una vez más compruebo que, una persona tan bondadosa como tú, está en el lugar correcto y pondré todo de mí para ser digno de estar a tu lado.",
     "position": "0"
   },
   "38": {
     "image": "Beatriz_Feliz",
     "name": "Beatriz_",
-    "text": "Tengo la certeza, de que alguien tan generoso como tu será capaz de reducir eso 1000 años a solo un par de ellos.",
+    "text": "Tengo la certeza de que serás capaz de reducir esos 1000 años a solo un par.",
     "position": "1"
   },
   "39": {
     "image": "Dios_Feliz",
     "name": "Dios_",
-    "text": "Pues así será, que tu estancia en el purgatorio sea tan breve como un suspiro.",
+    "text": "Pues, así será. Que tu estancia en el purgatorio sea tan breve como un suspiro.",
     "position": "1"
   },
   "40": {
     "image": "Lucifer_Feliz",
     "name": "Lucifer_",
-    "text": "Que te sea leve, caminante del abismo. ",
+    "text": "Que te sea leve, caminante del abismo.",
     "position": "2"
   },
   "41": {
     "image": "Dante_Feliz",
     "name": "Dante_",
-    "text": "Muchas gracias mis señores, por haberme dado una segunda oportunidad de estar con mi amada.",
+    "text": "Muchas gracias, mis señores, por haberme dado una segunda oportunidad de estar con mi amada.",
     "position": "0"
   },
   "42": {
     "image": "Dante_Muy_Feliz",
     "name": "Dante_",
-    "text": "Y a ti, amor mío, te prometo que te veré, mucho antes de lo que esperas.",
+    "text": "Y a tí, amor mío, te prometo que te veré mucho antes de lo que esperas.",
     "position": "0"
   },
   "43": {
     "image": "Beatriz_Feliz",
     "name": "Beatriz_",
-    "text": "Te esperare amado mio. Lo que haga falta, por nuestro amor.",
+    "text": "Te esperaré lo que haga falta, por nuestro amor.",
     "position": "1"
   },
   "44": {
-    "image": "Dante_Muy_Feliz",
-    "name": "Dante_",
-    "text": "Y a ti, amor mío, te prometo que te veré, mucho antes de lo que esperas.",
-    "position": "0"
-  },
-  "45": {
     "remove": [
       {"position": "1" },
       {"position": "2" }
       ]
   },
-  "46": {
+  "45": {
     "background": "Purgatory",
     "animation": "true",
     "image": "Dante_Feliz",

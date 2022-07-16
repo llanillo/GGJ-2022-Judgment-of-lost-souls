@@ -39,4 +39,4 @@ This would not have been possible without these **wonderful people**
 
 [Music/Sound](https://www.instagram.com/fonts.tg/)
 
-Script - Tomas Heredia
+Story Writer - Tomas Heredia

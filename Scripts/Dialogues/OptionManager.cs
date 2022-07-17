@@ -3,12 +3,13 @@ using Godot.Collections;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
+using JudgmentofLostSouls.Scripts.Dialogues;
 
 public class OptionManager : Dialogue
 {
 
     public override string NodePath { get; } = "Panel/";
-    public override string JsonName { get; } = "/Option";
+    protected override string JsonName { get; } = "/Option";
 
     private readonly List<Points> CurrentOptions = new List<Points>();
     private const string LabelPath = "Panel/Margin/VBox/";

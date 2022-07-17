@@ -13,9 +13,9 @@ public abstract class Dialogue : Control
     public string CharacterImagesPath;
 
     public abstract string NodePath { get; }
-    public abstract string JsonName { get; }
+    protected abstract string JsonName { get; }
     
-    protected Queue<Dictionary> QueueDialogues = new Queue<Dictionary>();    
+    protected readonly Queue<Dictionary> QueueDialogues = new Queue<Dictionary>();    
 
     protected GameManager GameManager { get; private set; }    
 
@@ -23,17 +23,16 @@ public abstract class Dialogue : Control
     public override void _Ready()
     {
         GameManager = GetNode<GameManager>("/root/GameManager");        
-
         AddDialogueDictionary(QueueDialogues, JsonPath, JsonName);
     }
 
 
-    protected void AddDialogueDictionary(Queue<Dictionary> queue, string jsonPath, string dialogueType)
+    private void AddDialogueDictionary(Queue<Dictionary> queue, string jsonPath, string dialogueType)
     {
         Dictionary dictionary = GameManager.LoadDialogueFromJson(jsonPath, dialogueType);
-        for (int i = 0; i < dictionary.Count; i++)
+        for (var i = 0; i < dictionary.Count; i++)
         {
-            Dictionary dialogue = dictionary[i.ToString()] as Dictionary;            
+            var dialogue = dictionary[i.ToString()] as Dictionary;            
             queue.Enqueue(dialogue);
         }
     }

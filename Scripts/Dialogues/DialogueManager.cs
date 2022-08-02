@@ -1,8 +1,6 @@
-using System;
 using System.Collections.Generic;
 using Godot;
 using Godot.Collections;
-using Array = Godot.Collections.Array;
 
 namespace JudgmentofLostSouls.Scripts.Dialogues
 {

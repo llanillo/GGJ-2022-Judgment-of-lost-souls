@@ -1,9 +1,4 @@
-using System.Collections.Generic;
 using System.Globalization;
-using Godot;
-using Godot.Collections;
-using JudgmentOfLostSouls.Extras;
-using JudgmentOfLostSouls.Manager;
 
 namespace JudgmentOfLostSouls.Dialogues
 {

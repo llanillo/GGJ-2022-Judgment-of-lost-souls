@@ -1,5 +1,3 @@
-using Godot;
-
 namespace JudgmentOfLostSouls.Animation
 {
     public class TransitionScreen : Control

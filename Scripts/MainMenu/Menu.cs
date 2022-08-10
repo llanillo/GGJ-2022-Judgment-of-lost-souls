@@ -1,7 +1,3 @@
-using Godot;
-using JudgmentOfLostSouls.Extras;
-using JudgmentOfLostSouls.Manager;
-
 namespace JudgmentOfLostSouls.MainMenu
 {
     public class Menu : Node

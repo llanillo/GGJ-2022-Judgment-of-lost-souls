@@ -1,6 +1,3 @@
-using Godot;
-using JudgmentOfLostSouls.Manager;
-
 namespace JudgmentOfLostSouls.Extras
 {
     public class Credits : Control

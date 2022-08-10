@@ -1,6 +1,8 @@
-using Godot;
-using Godot.Collections;
-using JudgmentOfLostSouls.Manager;
+global using Godot;
+global using Godot.Collections;
+global using JudgmentOfLostSouls.Manager;
+global using JudgmentOfLostSouls.Extras;
+global using System.Collections.Generic;
 
 namespace JudgmentOfLostSouls.Manager
 {

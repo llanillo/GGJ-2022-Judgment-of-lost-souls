@@ -1,8 +1,3 @@
-using System.Collections.Generic;
-using Godot;
-using Godot.Collections;
-using JudgmentOfLostSouls.Extras;
-
 namespace JudgmentOfLostSouls.Dialogues
 {
     public enum PlayerState

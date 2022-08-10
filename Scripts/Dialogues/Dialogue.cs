@@ -1,8 +1,3 @@
-using System.Collections.Generic;
-using Godot;
-using Godot.Collections;
-using JudgmentOfLostSouls.Manager;
-
 namespace JudgmentOfLostSouls.Dialogues
 {
     public abstract class Dialogue : Control

@@ -1,5 +1,3 @@
-using Godot;
-
 namespace JudgmentOfLostSouls.Manager
 {
     public struct Points

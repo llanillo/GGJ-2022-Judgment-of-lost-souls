@@ -1,5 +1,3 @@
-using Godot;
-
 namespace JudgmentOfLostSouls.Dialogues
 {
     public class BackgroundManager : PanelContainer

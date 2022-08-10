@@ -1,5 +1,3 @@
-using Godot;
-
 namespace JudgmentOfLostSouls.MainMenu
 {
     public class MenuButton : TextureButton

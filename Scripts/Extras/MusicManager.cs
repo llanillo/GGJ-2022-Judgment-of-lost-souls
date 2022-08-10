@@ -1,5 +1,3 @@
-using Godot;
-
 namespace JudgmentOfLostSouls.Extras
 {
     public class MusicManager : Control

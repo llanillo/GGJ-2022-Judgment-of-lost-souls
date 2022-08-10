@@ -1,10 +1,7 @@
 using Godot;
-using Godot.Collections;
-using System;
 
 public class TransitionScreen : Control
 {
-
     [Signal]
     public delegate void Transitioned();
 

@@ -1,28 +1,26 @@
-using Godot;
-using Godot.Collections;
-using System;
 using System.Collections.Generic;
 using System.Globalization;
-using JudgmentofLostSouls.Scripts.Dialogues;
+using Godot;
+using Godot.Collections;
 
 public class OptionManager : Dialogue
 {
-
-    public override string NodePath { get; } = "Panel/";
-    protected override string JsonName { get; } = "/Option";
-
-    private readonly List<Points> CurrentOptions = new List<Points>();
     private const string LabelPath = "Panel/Margin/VBox/";
     private const string HudPath = "Hud/";
-    
+
+    private readonly List<Points> CurrentOptions = new List<Points>();
+    private Label _ageLabel;
+    private Label _blessLabel;
+    private Label _deathCauseLabel;
+    private Label _karmaLabel;
+    private Label _nameLabel;
+
     private PlayerVariables _playerVariables;
     private TextureRect _portrait;
     private TextEdit _textEdit;
-    private Label _nameLabel;
-    private Label _karmaLabel;
-    private Label _blessLabel;
-    private Label _ageLabel;
-    private Label _deathCauseLabel;
+
+    public override string NodePath { get; } = "Panel/";
+    protected override string JsonName { get; } = "/Option";
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
@@ -43,8 +41,8 @@ public class OptionManager : Dialogue
     // Called every frame. 'delta' is the elapsed time since the previous frame.
     public override void _Process(float delta)
     {
-        _karmaLabel.Text = "Karma: " + _playerVariables.Karma.ToString();
-        _blessLabel.Text = "Bendicion: " + _playerVariables.Bless.ToString();
+        _karmaLabel.Text = "Karma: " + _playerVariables.Karma;
+        _blessLabel.Text = "Bendicion: " + _playerVariables.Bless;
     }
 
     private void DisplayText(Queue<Dictionary> dialoguesDictionary, List<Points> currentPoints)
@@ -52,22 +50,22 @@ public class OptionManager : Dialogue
         if (QueueDialogues.Count > 0)
         {
             // Get the next options from the Queue
-            Dictionary options = dialoguesDictionary.Dequeue();
+            var options = dialoguesDictionary.Dequeue();
 
             // Create a new Array with all the Options in the dialogue
-            foreach (var option in options["options"] as Godot.Collections.Array)
+            foreach (var option in options["options"] as Array)
             {
-                Dictionary dictionary = option as Dictionary;
-                float karma = float.Parse((string) dictionary["karma"], CultureInfo.InvariantCulture.NumberFormat);
-                float bless = float.Parse((string) dictionary["bless"], CultureInfo.InvariantCulture.NumberFormat);
+                var dictionary = option as Dictionary;
+                var karma = float.Parse((string)dictionary["karma"], CultureInfo.InvariantCulture.NumberFormat);
+                var bless = float.Parse((string)dictionary["bless"], CultureInfo.InvariantCulture.NumberFormat);
                 CurrentOptions.Add(new Points(karma, bless));
             }
 
-            _portrait.Texture = (Texture) GD.Load(CharacterImagesPath + "/" + (string) options["image"] + ".png");
-            _ageLabel.Text = "Edad " + (string) options["age"];
-            _textEdit.Text = (string) options["story"];
-            _nameLabel.Text = (string) options["name"];
-            _deathCauseLabel.Text = (string) options["death"];
+            _portrait.Texture = (Texture)GD.Load(CharacterImagesPath + "/" + (string)options["image"] + ".png");
+            _ageLabel.Text = "Edad " + (string)options["age"];
+            _textEdit.Text = (string)options["story"];
+            _nameLabel.Text = (string)options["name"];
+            _deathCauseLabel.Text = (string)options["death"];
         }
         else
         {

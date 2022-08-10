@@ -1,9 +1,7 @@
 using Godot;
-using System;
 
 public class Menu : Node
 {
-
     private const string CreditsPath = "Extras/Credits.tscn";
     private GameManager _gameManager;
 
@@ -27,7 +25,7 @@ public class Menu : Node
     {
         _gameManager.LoadScene(CreditsPath);
     }
-    
+
     private void _on_ExitButton_pressed()
     {
         GetTree().Quit();

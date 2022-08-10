@@ -13,18 +13,18 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
 
     public class DialogueManager : Dialogue
     {
-
         [Signal]
         public delegate void TransitionBackground(string backgroundPath, bool playAnim);
 
-        protected override string JsonName { get; } = "/Dialogue";
-        public override string NodePath { get; } = "TextPanel/Margin/VBox/";
+        private TextureRect _leftPortrait;
+        private TextureRect _middlePortrait;
 
         private MusicManager _musicManager;
-        private TextureRect _leftPortrait;
         private TextureRect _rightPortrait;
-        private TextureRect _middlePortrait;
         private TextManager _textManager;
+
+        protected override string JsonName { get; } = "/Dialogue";
+        public override string NodePath { get; } = "TextPanel/Margin/VBox/";
 
         // Called when the node enters the scene tree for the first time.
         public override void _Ready()
@@ -40,22 +40,18 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
         // Called every frame. 'delta' is the elapsed time since the previous frame.
         public override void _Process(float delta)
         {
-            if (_textManager.CurrentState == PlayerState.READY)
-            {
-                DisplayText(QueueDialogues);
-            }
+            if (_textManager.CurrentState == PlayerState.READY) DisplayText(QueueDialogues);
         }
 
         private void DisplayText(Queue<Dictionary> dictionary)
         {
-            if(QueueDialogues.Count > 0)
+            if (QueueDialogues.Count > 0)
             {
                 var dialogue = dictionary.Dequeue();
 
                 if (dialogue.Contains("remove"))
                 {
                     foreach (var position in (Array)dialogue["remove"])
-                    {
                         if (position is Dictionary optionsDictionary)
                             switch ((string)optionsDictionary["position"])
                             {
@@ -69,14 +65,13 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
                                     _middlePortrait.Visible = false;
                                     break;
                             }
-                    }
                 }
                 else
                 {
                     if (dialogue.Contains("background"))
                     {
-                        string background = (string) dialogue["background"];
-                        EmitSignal("TransitionBackground", background, bool.Parse((string) dialogue["animation"]));
+                        var background = (string)dialogue["background"];
+                        EmitSignal("TransitionBackground", background, bool.Parse((string)dialogue["animation"]));
 
                         switch (background.ToUpper())
                         {
@@ -97,42 +92,38 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
                             default:
                                 GD.Print("No se encontro cancion");
                                 break;
-                        }                  
+                        }
                     }
 
-                    string image = (string) dialogue["image"] + ".png";
-                    switch (int.Parse((string) dialogue["position"]))
+                    var image = (string)dialogue["image"] + ".png";
+                    switch (int.Parse((string)dialogue["position"]))
                     {
                         case 0:
-                            ModifyPortrait(image, _leftPortrait, new TextureRect[] { _middlePortrait, _rightPortrait });
+                            ModifyPortrait(image, _leftPortrait, new[] { _middlePortrait, _rightPortrait });
                             break;
                         case 1:
-                            ModifyPortrait(image, _rightPortrait, new TextureRect[] { _leftPortrait, _middlePortrait });
+                            ModifyPortrait(image, _rightPortrait, new[] { _leftPortrait, _middlePortrait });
                             break;
                         case 2:
-                            ModifyPortrait(image, _middlePortrait, new TextureRect[] { _rightPortrait, _leftPortrait });
+                            ModifyPortrait(image, _middlePortrait, new[] { _rightPortrait, _leftPortrait });
                             break;
                     }
 
-                    _textManager.DisplayText((string)dialogue["name"], (string)dialogue["text"]);                
+                    _textManager.DisplayText((string)dialogue["name"], (string)dialogue["text"]);
                 }
             }
             else
             {
                 GameManager.StartGame();
             }
-              
         }
 
         private void ModifyPortrait(string image, TextureRect currentTexture, TextureRect[] secondaryTexture)
         {
             currentTexture.Visible = true;
-            currentTexture.Texture = (Texture) GD.Load(CharacterImagesPath + "/" + image);
-            currentTexture.Modulate = new Color(1, 1, 1, 1);
-            foreach(TextureRect texture in secondaryTexture)
-            {
-                texture.Modulate = new Color(0.25f, 0.25f, 0.25f, 1);
-            }
+            currentTexture.Texture = (Texture)GD.Load(CharacterImagesPath + "/" + image);
+            currentTexture.Modulate = new Color(1, 1, 1);
+            foreach (var texture in secondaryTexture) texture.Modulate = new Color(0.25f, 0.25f, 0.25f);
         }
     }
 }

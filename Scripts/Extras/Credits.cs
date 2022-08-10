@@ -1,5 +1,4 @@
 using Godot;
-using System;
 
 public class Credits : Control
 {
@@ -8,7 +7,7 @@ public class Credits : Control
 
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
-    {        
+    {
         _gameManager = GetNode<GameManager>("/root/GameManager");
     }
 
@@ -16,5 +15,4 @@ public class Credits : Control
     {
         _gameManager.LoadScene(MenuPath);
     }
-
 }

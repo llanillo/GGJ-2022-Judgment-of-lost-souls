@@ -1,5 +1,4 @@
 using Godot;
-using System;
 
 public struct Points
 {
@@ -15,14 +14,13 @@ public struct Points
 
 public class PlayerVariables : Node
 {
-    public float Karma { get; private set; } = 0;
-    public float Bless { get; private set; } = 0;
-    
+    public float Karma { get; private set; }
+    public float Bless { get; private set; }
+
     public void AddPlayerValues(Points points)
     {
         Karma += points.karma;
         Bless += points.bless;
-
     }
 
     public void ResetValues()

@@ -1,5 +1,6 @@
 using System;
 using Godot;
+using Object = Godot.Object;
 
 namespace JudgmentofLostSouls.Scripts.Dialogues
 {
@@ -7,14 +8,14 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
     {
         private const float TextSpeedRate = 0.02f;
         private const string Path = "Margin/VBox/";
-    
-        public PlayerState CurrentState { get; private set; }
 
         private AudioStreamPlayer _audioPlayerText;
         private TextureButton _continueButton;
         private Label _nameLabel;
         private Label _textLabel;
         private Tween _textTween;
+
+        public PlayerState CurrentState { get; private set; }
 
         // Called when the node enters the scene tree for the first time.
         public override void _Ready()
@@ -31,7 +32,7 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
         public override void _Input(InputEvent @event)
         {
             if (!@event.IsActionPressed("ui_accept")) return;
-            
+
             switch (CurrentState)
             {
                 case PlayerState.READING:
@@ -54,7 +55,7 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
             SwitchState(PlayerState.READY);
         }
 
-        private void OnTextTweenTweenCompleted(Godot.Object obj, NodePath node)
+        private void OnTextTweenTweenCompleted(Object obj, NodePath node)
         {
             SwitchState(PlayerState.FINISHED);
             _textLabel.PercentVisible = 1;
@@ -71,7 +72,8 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
             _nameLabel.Text = name;
             _textLabel.Text = text;
             _textLabel.PercentVisible = 0.0f;
-            _textTween.InterpolateProperty(_textLabel, "percent_visible", 0.0f, 1.0f, _textLabel.Text.Length * TextSpeedRate, Tween.TransitionType.Linear, Tween.EaseType.InOut);
+            _textTween.InterpolateProperty(_textLabel, "percent_visible", 0.0f, 1.0f,
+                _textLabel.Text.Length * TextSpeedRate);
             _textTween.Start();
         }
 

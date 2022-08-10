@@ -4,14 +4,14 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
 {
     public class BackgroundManager : PanelContainer
     {
-        [Export(PropertyHint.Dir)]
-        public string BackgroundPath;
-
-        private TextureRect _mainBackground;
-        private Sprite _secondaryBackground;
         private AnimationPlayer _animationPlayerBackground;
 
         private DialogueManager _dialogueManager;
+
+        private TextureRect _mainBackground;
+        private Sprite _secondaryBackground;
+
+        [Export(PropertyHint.Dir)] public string BackgroundPath;
 
         // Called when the node enters the scene tree for the first time.
         public override void _Ready()
@@ -27,15 +27,11 @@ namespace JudgmentofLostSouls.Scripts.Dialogues
         private void AssignBackground(string background, bool playAnim)
         {
             if (playAnim)
-            {            
                 _animationPlayerBackground.Play("Transition");
-            }
             else
-            {
                 _secondaryBackground.Modulate = new Color(1, 1, 1, 0);
-            }
 
-            _mainBackground.Texture = (Texture) GD.Load(BackgroundPath + "/" + background + ".png");
+            _mainBackground.Texture = (Texture)GD.Load(BackgroundPath + "/" + background + ".png");
         }
     }
 }

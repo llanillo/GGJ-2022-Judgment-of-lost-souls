@@ -1,35 +1,38 @@
 using Godot;
 
-public class TransitionScreen : Control
+namespace JudgmentOfLostSouls.Animation
 {
-    [Signal]
-    public delegate void Transitioned();
-
-    private AnimationPlayer _animationPlayer;
-
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
+    public class TransitionScreen : Control
     {
-        _animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
-        StartTransition();
-    }
+        [Signal]
+        public delegate void Transitioned();
 
-    public void StartTransition()
-    {
-        _animationPlayer.Play("FadeToBlack");
-    }
+        private AnimationPlayer _animationPlayer;
 
-    private void HandleFinishedAnimation(string animationName)
-    {
-        if (animationName.Equals("FadeToBlack"))
+        // Called when the node enters the scene tree for the first time.
+        public override void _Ready()
         {
-            GD.Print(animationName);
-            EmitSignal("Transitioned");
-            _animationPlayer.Play("FadeToNormal");
+            _animationPlayer = GetNode<AnimationPlayer>("AnimationPlayer");
+            StartTransition();
         }
-        else if (animationName.Equals("FadeToNormal"))
+
+        public void StartTransition()
         {
-            GD.Print("Finished");
+            _animationPlayer.Play("FadeToBlack");
+        }
+
+        private void HandleFinishedAnimation(string animationName)
+        {
+            if (animationName.Equals("FadeToBlack"))
+            {
+                GD.Print(animationName);
+                EmitSignal("Transitioned");
+                _animationPlayer.Play("FadeToNormal");
+            }
+            else if (animationName.Equals("FadeToNormal"))
+            {
+                GD.Print("Finished");
+            }
         }
     }
 }

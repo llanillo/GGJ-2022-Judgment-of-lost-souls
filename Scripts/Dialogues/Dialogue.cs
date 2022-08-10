@@ -1,35 +1,39 @@
 using System.Collections.Generic;
 using Godot;
 using Godot.Collections;
+using JudgmentOfLostSouls.Manager;
 
-public abstract class Dialogue : Control
+namespace JudgmentOfLostSouls.Dialogues
 {
-    protected readonly Queue<Dictionary> QueueDialogues = new Queue<Dictionary>();
-
-    [Export(PropertyHint.Dir)] public string CharacterImagesPath;
-
-    [Export(PropertyHint.Dir)] public string JsonPath;
-
-    public abstract string NodePath { get; }
-    protected abstract string JsonName { get; }
-
-    protected GameManager GameManager { get; private set; }
-
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
+    public abstract class Dialogue : Control
     {
-        GameManager = GetNode<GameManager>("/root/GameManager");
-        AddDialogueDictionary(QueueDialogues, JsonPath, JsonName);
-    }
+        protected readonly Queue<Dictionary> QueueDialogues = new Queue<Dictionary>();
 
+        [Export(PropertyHint.Dir)] public string CharacterImagesPath;
 
-    private void AddDialogueDictionary(Queue<Dictionary> queue, string jsonPath, string dialogueType)
-    {
-        var dictionary = GameManager.LoadDialogueFromJson(jsonPath, dialogueType);
-        for (var i = 0; i < dictionary.Count; i++)
+        [Export(PropertyHint.Dir)] public string JsonPath;
+
+        public abstract string NodePath { get; }
+        protected abstract string JsonName { get; }
+
+        protected GameManager GameManager { get; private set; }
+
+        // Called when the node enters the scene tree for the first time.
+        public override void _Ready()
         {
-            var dialogue = dictionary[i.ToString()] as Dictionary;
-            queue.Enqueue(dialogue);
+            GameManager = GetNode<GameManager>("/root/GameManager");
+            AddDialogueDictionary(QueueDialogues, JsonPath, JsonName);
+        }
+
+
+        private void AddDialogueDictionary(Queue<Dictionary> queue, string jsonPath, string dialogueType)
+        {
+            var dictionary = GameManager.LoadDialogueFromJson(jsonPath, dialogueType);
+            for (var i = 0; i < dictionary.Count; i++)
+            {
+                var dialogue = dictionary[i.ToString()] as Dictionary;
+                queue.Enqueue(dialogue);
+            }
         }
     }
 }

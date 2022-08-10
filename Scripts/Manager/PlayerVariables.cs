@@ -1,31 +1,34 @@
 using Godot;
 
-public struct Points
+namespace JudgmentOfLostSouls.Manager
 {
-    public float karma;
-    public float bless;
-
-    public Points(float karma, float bless)
+    public struct Points
     {
-        this.karma = karma;
-        this.bless = bless;
-    }
-}
+        public float karma;
+        public float bless;
 
-public class PlayerVariables : Node
-{
-    public float Karma { get; private set; }
-    public float Bless { get; private set; }
-
-    public void AddPlayerValues(Points points)
-    {
-        Karma += points.karma;
-        Bless += points.bless;
+        public Points(float karma, float bless)
+        {
+            this.karma = karma;
+            this.bless = bless;
+        }
     }
 
-    public void ResetValues()
+    public class PlayerVariables : Node
     {
-        Karma = 0;
-        Bless = 0;
+        public float Karma { get; private set; }
+        public float Bless { get; private set; }
+
+        public void AddPlayerValues(Points points)
+        {
+            Karma += points.karma;
+            Bless += points.bless;
+        }
+
+        public void ResetValues()
+        {
+            Karma = 0;
+            Bless = 0;
+        }
     }
 }

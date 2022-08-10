@@ -1,4 +1,4 @@
-﻿namespace JudgmentofLostSouls.Scripts.Manager
+﻿namespace JudgmentOfLostSouls.Manager
 {
     public enum GameState
     {

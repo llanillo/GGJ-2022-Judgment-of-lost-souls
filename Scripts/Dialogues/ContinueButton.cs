@@ -1,6 +1,6 @@
 using Godot;
 
-namespace JudgmentofLostSouls.Scripts.Dialogues
+namespace JudgmentOfLostSouls.Dialogues
 {
     public class ContinueButton : TextureButton
     {

@@ -2,7 +2,7 @@ using System;
 using Godot;
 using Object = Godot.Object;
 
-namespace JudgmentofLostSouls.Scripts.Dialogues
+namespace JudgmentOfLostSouls.Dialogues
 {
     public class TextManager : Panel
     {

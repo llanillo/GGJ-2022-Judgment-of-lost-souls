@@ -1,18 +1,22 @@
 using Godot;
+using JudgmentOfLostSouls.Manager;
 
-public class Credits : Control
+namespace JudgmentOfLostSouls.Extras
 {
-    private const string MenuPath = "MainMenu/MainMenu.tscn";
-    private GameManager _gameManager;
-
-    // Called when the node enters the scene tree for the first time.
-    public override void _Ready()
+    public class Credits : Control
     {
-        _gameManager = GetNode<GameManager>("/root/GameManager");
-    }
+        private const string MenuPath = "MainMenu/MainMenu.tscn";
+        private GameManager _gameManager;
 
-    private void OnTextureButtonPressed()
-    {
-        _gameManager.LoadScene(MenuPath);
+        // Called when the node enters the scene tree for the first time.
+        public override void _Ready()
+        {
+            _gameManager = GetNode<GameManager>("/root/GameManager");
+        }
+
+        private void OnTextureButtonPressed()
+        {
+            _gameManager.LoadScene(MenuPath);
+        }
     }
 }
